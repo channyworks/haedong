@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="해동연의 첫 시나리오의 5국 지도, 거점, 인물과 내정 준비를 살펴봅니다.">
+<title>안시성의 불멸 · 해동연의</title>
+<link rel="stylesheet" href="style.css">
+<script defer src="data.js"></script>
+<script defer src="app.js"></script>
+</head>
+<body>
+<header class="mast"><a href="#">해동연의</a><span>시나리오 기획 초안</span></header>
+<main>
+  <section id="intro" class="hero" aria-labelledby="title">
+    <small>645년 · 고구려와 당의 전쟁</small>
+    <h1 id="title">안시성의<br>불멸</h1>
+    <p>안시성의 성벽을 지키고 구원군이 닿을 길을 열어라.</p>
+    <a class="action" href="#map">시나리오 진입</a>
+  </section>
+  <section id="scenario" hidden>
+    <div class="context"><small>645년 · 내정 직전</small><h1>안시성의 불멸</h1></div>
+    <nav aria-label="시나리오 메뉴"><a href="#map">세력지도</a><a href="#people">인물 열전</a><a href="#brief">내정 브리핑</a></nav>
+    <section id="map-view" hidden>
+      <h2 tabindex="-1">세력지도</h2>
+      <p>5국의 거점과 게임용 연결로를 표시한 개념도입니다.</p>
+      <div class="map-layout">
+        <div>
+          <div id="map" class="map" aria-label="5국 세력 개념도"></div>
+          <ul id="legend" class="legend" aria-label="세력 범례"></ul>
+        </div>
+        <div class="panel"><h3>거점 목록</h3><div id="sites" class="site-list"></div></div>
+      </div>
+    </section>
+    <section id="people-view" hidden>
+      <h2 tabindex="-1">인물 열전</h2>
+      <p>국가별 100명 편성 목표 · 사료와 작품 설정을 확인한 인물부터 등록합니다.</p>
+      <ul id="counts" class="legend"></ul>
+      <form id="filters" class="filters">
+        <label>이름·이명 <input id="query" type="search" placeholder="예  이세적"></label>
+        <label>세력 <select id="nation"><option value="">전체</option></select></label>
+        <label>역할 <select id="role"><option value="">전체</option></select></label>
+        <label>배치 여부 <select id="assigned"><option value="">전체</option><option value="yes">배치</option><option value="no">미배치</option></select></label>
+      </form>
+      <p id="count" role="status"></p>
+      <div id="roster" class="roster"></div>
+    </section>
+    <section id="detail" class="panel detail" hidden></section>
+    <section id="brief" class="panel detail" hidden>
+      <h2 tabindex="-1">내정 직전 브리핑</h2>
+      <p>첫 군령 전, 안시성 수비와 오골성 수송에 배치할 인물을 확인합니다. 준비는 3턴, 턴마다 명령 2개를 잠정 기준으로 합니다.</p>
+      <dl class="facts">
+        <dt>성벽 보수</dt><dd>안시성의 방어 상태를 높입니다.</dd>
+        <dt>군량 수송</dt><dd>오골성의 수송대가 도착하면 안시성 비축이 늘어납니다.</dd>
+        <dt>병력 재배치</dt><dd>성벽·성문·예비대의 초기 배치를 바꿉니다.</dd>
+        <dt>정찰</dt><dd>토산 진척과 접근로 보고를 갱신합니다.</dd>
+        <dt>구원 요청</dt><dd>승인 시 출발과 예상 도착 시각을 확인합니다.</dd>
+      </dl>
+      <p><strong>전투 기준점</strong> · 상대 17일 10시, 토산 완성도 53%, 구원군 출진. 내정 준비 시작 시각은 설계 중입니다.</p>
+      <p><a href="#site/ansi">안시성 상태 확인</a> · <a href="#site/ogol">오골성 상태 확인</a></p>
+    </section>
+  </section>
+</main>
+</body>
+</html>

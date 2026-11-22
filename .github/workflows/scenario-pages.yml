@@ -1,0 +1,38 @@
+name: Publish scenario preview
+
+on:
+  push:
+    branches: [main]
+    paths: ['scenario-preview/**', '.github/workflows/scenario-pages.yml']
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: scenario-pages
+  cancel-in-progress: false
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: |
+          node --check scenario-preview/data.js
+          node --check scenario-preview/app.js
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: scenario-preview
+  deploy:
+    needs: package
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - id: publish
+        uses: actions/deploy-pages@v4
