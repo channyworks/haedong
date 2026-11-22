@@ -4,10 +4,12 @@
 
 `scenario-preview/index.html`이 화면 구조, `style.css`가 반응형 스타일, `data.js`가 세력·거점·인물·출처, `coastline.js`가 해안선 데이터를 제공한다. `simulation.js`는 세력별 네 턴의 재현 가능한 판정과 소설 초안, `app.js`는 탐색·검색·브라우저 저장과 다운로드를 맡는다. 상대 경로가 로컬과 Pages 프로젝트 접두 경로에서 같은 리소스를 가리킨다. 실행에 별도 API나 외부 라이브러리가 필요하지 않다. [상세 기획](PLAY_TO_NOVEL.md)
 
+통합 도감의 출처는 `data/history/`의 JSON이다. `build_history.py`가 직접 파일로도 열 수 있는 `history-data.js`를 생성한다. `history.js`와 `history.css`가 통합 화면을, `strategy.js`가 전략 제안과 기존 `simulation.js`의 군령 판정 연결을 맡는다. `#people`은 통합 도감, `#cast`는 기존 645년 배역이며 `#person/<id>` 주소는 계속 지원한다. [데이터 계약](history/ENCYCLOPEDIA.md)
+
 ```mermaid
 flowchart LR
   A[main 변경] --> B[구문과 경로 검증]
-  B --> C[허용된 정적 파일 여섯 개 패키징]
+  B --> C[허용된 정적 파일 패키징]
   C --> D[GitHub Pages OIDC 배포]
   D --> E[PC 및 모바일 브라우저]
 ```

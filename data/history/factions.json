@@ -1,0 +1,1673 @@
+{
+  "radar_axes": [
+    "육상전",
+    "수성",
+    "기병",
+    "내정",
+    "외교",
+    "수군",
+    "인재육성"
+  ],
+  "political_axes": [
+    "군주권",
+    "정통성",
+    "귀족 지지",
+    "가문 영향력",
+    "지방 통제",
+    "관료 효율",
+    "재정 안정"
+  ],
+  "factions": [
+    {
+      "id": "gog",
+      "name": "고구려",
+      "kind": "core",
+      "color": "#6cc3ac",
+      "span": [
+        null,
+        668
+      ],
+      "radar": [
+        98,
+        98,
+        95,
+        82,
+        83,
+        65,
+        85
+      ],
+      "political_seed": [
+        56,
+        65,
+        67,
+        75,
+        68,
+        57,
+        65
+      ],
+      "traits": "산성과 기병을 이용해 다층 방어선을 운용한다.",
+      "tension": "왕실·귀족의 합의와 연씨 권력 집중, 성주 자율성이 충돌한다.",
+      "mechanics": [
+        "산성 연계 방어",
+        "성주 자율성",
+        "귀족 합의"
+      ],
+      "ai_policy": "성주 지원을 먼저 협상하고 연속 보급로를 지킨다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "왕",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "court",
+            "label": "대대로·귀족",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "yeon",
+            "label": "연씨 집권",
+            "from_year": 642,
+            "to_year": 668
+          },
+          {
+            "id": "fort",
+            "label": "지방 성주",
+            "from_year": null,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "court",
+            "label": "합의",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "court",
+            "right": "fort",
+            "label": "군량 협상",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "king",
+            "right": "yeon",
+            "label": "권력 집중",
+            "kind": "설계",
+            "from_year": 642,
+            "to_year": 668
+          },
+          {
+            "left": "yeon",
+            "right": "fort",
+            "label": "군령",
+            "kind": "설계",
+            "from_year": 642,
+            "to_year": 668
+          }
+        ]
+      },
+      "houses": [
+        "gog-yeon",
+        "gog-royal"
+      ]
+    },
+    {
+      "id": "baek",
+      "name": "백제",
+      "kind": "core",
+      "color": "#eeb176",
+      "span": [
+        null,
+        660
+      ],
+      "radar": [
+        85,
+        86,
+        79,
+        91,
+        96,
+        98,
+        85
+      ],
+      "political_seed": [
+        69,
+        70,
+        58,
+        66,
+        62,
+        70,
+        66
+      ],
+      "traits": "수군·해상 교역과 외교를 연결한다.",
+      "tension": "왕실과 좌평 가문 사이에서 군량, 접경 방어, 함대를 배분한다.",
+      "mechanics": [
+        "항로 수군",
+        "해외 동맹",
+        "지방 군량"
+      ],
+      "ai_policy": "접경 보급이 부족하면 항로와 내륙 창고를 먼저 점검한다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "왕",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "court",
+            "label": "좌평",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "local",
+            "label": "지방 통치",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "route",
+            "label": "수군·교역",
+            "from_year": null,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "court",
+            "label": "인사",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "court",
+            "right": "local",
+            "label": "군량",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "local",
+            "right": "route",
+            "label": "수송",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          }
+        ]
+      },
+      "houses": [
+        "baek-buyeo",
+        "baek-sataek"
+      ]
+    },
+    {
+      "id": "sil",
+      "name": "신라",
+      "kind": "core",
+      "color": "#e5d577",
+      "span": [
+        null,
+        935
+      ],
+      "radar": [
+        94,
+        88,
+        84,
+        95,
+        99,
+        87,
+        99
+      ],
+      "political_seed": [
+        62,
+        70,
+        65,
+        72,
+        65,
+        70,
+        71
+      ],
+      "traits": "동맹 외교와 인재 선발을 장기전에 활용한다.",
+      "tension": "골품의 관직 상한, 왕실 계승, 귀족의 지지를 조정한다.",
+      "mechanics": [
+        "골품 관직 상한",
+        "화랑 인재 육성",
+        "동맹 외교"
+      ],
+      "ai_policy": "인사 후보의 관등 조건을 확인하고 공동 작전 비용을 협상한다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "왕",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "court",
+            "label": "상대등·귀족",
+            "from_year": 531,
+            "to_year": null
+          },
+          {
+            "id": "office",
+            "label": "집사부",
+            "from_year": 651,
+            "to_year": null
+          },
+          {
+            "id": "youth",
+            "label": "화랑 인재",
+            "from_year": 576,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "court",
+            "label": "귀족 협의",
+            "kind": "설계",
+            "from_year": 531,
+            "to_year": null
+          },
+          {
+            "left": "king",
+            "right": "office",
+            "label": "왕명 집행",
+            "kind": "설계",
+            "from_year": 651,
+            "to_year": null
+          },
+          {
+            "left": "court",
+            "right": "youth",
+            "label": "인재 추천",
+            "kind": "설계",
+            "from_year": 576,
+            "to_year": null
+          }
+        ]
+      },
+      "houses": [
+        "sil-kim-royal",
+        "sil-gaya-kim"
+      ]
+    },
+    {
+      "id": "tang",
+      "name": "당나라",
+      "kind": "core",
+      "color": "#ec8e84",
+      "span": [
+        618,
+        907
+      ],
+      "radar": [
+        100,
+        91,
+        98,
+        99,
+        96,
+        95,
+        98
+      ],
+      "political_seed": [
+        80,
+        77,
+        60,
+        62,
+        70,
+        82,
+        81
+      ],
+      "traits": "관료 인사와 원정 병참을 여러 전선에 배분한다.",
+      "tension": "황위 계승과 외척 정치, 변경의 군사비를 함께 다룬다.",
+      "mechanics": [
+        "삼성육부",
+        "관료 선발",
+        "기미 통치와 전선별 병참"
+      ],
+      "ai_policy": "전선들의 비용을 합산하고 재정 여유가 큰 전선부터 병참을 배정한다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "황제",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "zhong",
+            "label": "중서성",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "men",
+            "label": "문하성",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "shang",
+            "label": "상서성",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "ministries",
+            "label": "육부",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "local",
+            "label": "지방 도독·군단",
+            "from_year": null,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "zhong",
+            "label": "기초",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "zhong",
+            "right": "men",
+            "label": "심의",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "men",
+            "right": "shang",
+            "label": "집행",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "shang",
+            "right": "ministries",
+            "label": "업무 분담",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "ministries",
+            "right": "local",
+            "label": "병참",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          }
+        ]
+      },
+      "houses": [
+        "tang-li",
+        "tang-zhangsun"
+      ]
+    },
+    {
+      "id": "wa",
+      "name": "왜나라",
+      "kind": "core",
+      "color": "#cca9ed",
+      "span": [
+        null,
+        null
+      ],
+      "radar": [
+        79,
+        80,
+        65,
+        85,
+        85,
+        94,
+        88
+      ],
+      "political_seed": [
+        57,
+        68,
+        70,
+        78,
+        57,
+        55,
+        63
+      ],
+      "traits": "호족과 수군, 도래계 기술을 활용한다.",
+      "tension": "왕실 계승과 호족 연대, 개혁에 따른 권한 재배치가 이어진다.",
+      "mechanics": [
+        "호족 사병과 혼인",
+        "도래계 기술",
+        "왕궁·행정 거점 이전"
+      ],
+      "ai_policy": "왕실과 호족 지지를 확보한 뒤 개혁이나 출병을 결정한다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "왕실",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "clans",
+            "label": "유력 호족",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "fleet",
+            "label": "해상 세력",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "id": "office",
+            "label": "개혁기 관직",
+            "from_year": 645,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "clans",
+            "label": "인사·혼인",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "clans",
+            "right": "fleet",
+            "label": "수군 동원",
+            "kind": "설계",
+            "from_year": null,
+            "to_year": null
+          },
+          {
+            "left": "king",
+            "right": "office",
+            "label": "조정 재편",
+            "kind": "설계",
+            "from_year": 645,
+            "to_year": null
+          }
+        ]
+      },
+      "houses": [
+        "wa-royal",
+        "wa-soga",
+        "wa-nakatomi",
+        "wa-otomo",
+        "wa-azumi"
+      ]
+    },
+    {
+      "id": "balhae",
+      "name": "발해",
+      "kind": "expansion",
+      "color": "#9fbdf3",
+      "span": [
+        698,
+        926
+      ],
+      "radar": null,
+      "political_seed": [
+        65,
+        57,
+        58,
+        64,
+        44,
+        48,
+        49
+      ],
+      "traits": "동모산의 정치 연합에서 출발해 변경·외교를 개척한다.",
+      "tension": "왕실 계승, 변경 집단의 자율성, 당과의 국경이 주요 쟁점이다.",
+      "mechanics": [
+        "변경 세력 통합",
+        "해상 외교",
+        "이주와 거점 정비"
+      ],
+      "ai_policy": "인구가 이동하면 변경의 보급과 귀속을 우선 재평가한다.",
+      "government": {
+        "nodes": [
+          {
+            "id": "king",
+            "label": "왕",
+            "from_year": 698,
+            "to_year": null
+          },
+          {
+            "id": "court",
+            "label": "중앙 관료",
+            "from_year": 698,
+            "to_year": null
+          },
+          {
+            "id": "local",
+            "label": "지방 거점",
+            "from_year": 698,
+            "to_year": null
+          }
+        ],
+        "edges": [
+          {
+            "left": "king",
+            "right": "court",
+            "label": "위임",
+            "kind": "설계",
+            "from_year": 698,
+            "to_year": null
+          },
+          {
+            "left": "court",
+            "right": "local",
+            "label": "변경 운영",
+            "kind": "설계",
+            "from_year": 698,
+            "to_year": null
+          }
+        ]
+      },
+      "houses": [
+        "balhae-dae"
+      ]
+    },
+    {
+      "id": "sui",
+      "name": "수나라",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        581,
+        618
+      ],
+      "map_position": [
+        30,
+        63
+      ],
+      "traits": "고구려 원정과 제국의 재정 부담을 다루는 독립 AI.",
+      "sources": [
+        {
+          "title": "구당서·수서 및 삼국사기 영양왕기",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "east-turk",
+      "name": "동돌궐",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        583,
+        630
+      ],
+      "map_position": [
+        46,
+        20
+      ],
+      "traits": "630년 카간국 패배 이후 종속 집단과 후대 재건 세력은 별도 항목으로 다룬다.",
+      "sources": [
+        {
+          "title": "구당서 돌궐전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "west-turk",
+      "name": "서돌궐",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        583,
+        657
+      ],
+      "map_position": [
+        15,
+        26
+      ],
+      "traits": "657년 원정 전후의 부족 동맹과 통치 변화를 추적한다.",
+      "sources": [
+        {
+          "title": "구당서 소정방 열전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "xueyantuo",
+      "name": "설연타",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        628,
+        646
+      ],
+      "map_position": [
+        57,
+        14
+      ],
+      "traits": "당 및 돌궐과의 관계가 바뀌는 북방 세력.",
+      "sources": [
+        {
+          "title": "구당서 철륵전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "uyghur",
+      "name": "회흘 계통 세력",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        39,
+        10
+      ],
+      "traits": "7세기의 부족 세력과 744년 이후의 카간국을 구분한다.",
+      "sources": [
+        {
+          "title": "구당서 회흘전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "tibet",
+      "name": "토번",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        842
+      ],
+      "map_position": [
+        10,
+        72
+      ],
+      "traits": "당 서남 전선, 혼인 외교와 대비천 전투의 독립 세력.",
+      "sources": [
+        {
+          "title": "구당서 토번전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "tuyuhun",
+      "name": "토욕혼",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        663
+      ],
+      "map_position": [
+        28,
+        39
+      ],
+      "traits": "당·토번 사이의 교섭과 전쟁을 다룬다.",
+      "sources": [
+        {
+          "title": "구당서 토욕혼전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "khitan",
+      "name": "거란 부족·연맹",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        67,
+        22
+      ],
+      "traits": "영주 인근 여러 부족의 귀속을 시기별로 분리한다.",
+      "sources": [
+        {
+          "title": "신당서 거란전·발해전",
+          "url": "https://zh.wikisource.org/wiki/新唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "mohe",
+      "name": "말갈 부족·연맹",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        83,
+        18
+      ],
+      "traits": "복수 집단의 지역·지도자·외교 상태를 따로 관리한다.",
+      "sources": [
+        {
+          "title": "신당서 흑수말갈전·발해전",
+          "url": "https://zh.wikisource.org/wiki/新唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "heishui",
+      "name": "흑수말갈",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        91,
+        10
+      ],
+      "traits": "무왕대 발해와 당 사이의 흑수말갈 관계를 따로 다룬다.",
+      "sources": [
+        {
+          "title": "신당서 권219 발해전",
+          "url": "https://zh.wikisource.org/wiki/新唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "tiele",
+      "name": "철륵 부족군",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        15,
+        11
+      ],
+      "traits": "여러 북방 집단의 범주. 계필부·설연타 등 개별 행위자를 분리한다.",
+      "sources": [
+        {
+          "title": "구당서 철륵전",
+          "url": "https://zh.wikisource.org/wiki/舊唐書",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "tamna",
+      "name": "탐라",
+      "kind": "candidate",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        69,
+        89
+      ],
+      "traits": "소규모 섬 정치체. 교섭 범위와 활성화 연대의 검토가 필요하다.",
+      "sources": [
+        {
+          "title": "삼국사기 백제본기·신라본기",
+          "url": "https://db.history.go.kr/ancient/",
+          "locator": null,
+          "edition": "국사편찬위원회 한국 고대 사료 DB",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "usan",
+      "name": "우산국",
+      "kind": "candidate",
+      "color": "#a4b6a4",
+      "span": [
+        null,
+        null
+      ],
+      "map_position": [
+        82,
+        57
+      ],
+      "traits": "512년 기사 이후의 정치적 자율성과 독립 플레이는 별도 검토한다.",
+      "sources": [
+        {
+          "title": "삼국사기 지증왕기",
+          "url": "https://db.history.go.kr/ancient/",
+          "locator": null,
+          "edition": "국사편찬위원회 한국 고대 사료 DB",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "baek-restoration",
+      "name": "백제 부흥 세력",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        660,
+        663
+      ],
+      "map_position": [
+        59,
+        69
+      ],
+      "traits": "부여풍·복신·도침의 정치적 연합과 왜로부터의 지원.",
+      "sources": [
+        {
+          "title": "삼국사기 문무왕기·일본서기 덴지기",
+          "url": "https://ja.wikisource.org/wiki/日本書紀",
+          "locator": null,
+          "edition": "Wikisource 공개 전사본",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "boguk",
+      "name": "보덕국 계통 부흥 세력",
+      "kind": "frontier",
+      "color": "#a4b6a4",
+      "span": [
+        670,
+        684
+      ],
+      "map_position": [
+        64,
+        44
+      ],
+      "traits": "670년 고구려 부흥 세력에서 이후 보덕국으로 이어지는 흐름.",
+      "sources": [
+        {
+          "title": "삼국사기 문무왕기·신문왕기",
+          "url": "https://db.history.go.kr/ancient/",
+          "locator": null,
+          "edition": "국사편찬위원회 한국 고대 사료 DB",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "later-yan",
+      "name": "후연",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        384,
+        407
+      ],
+      "map_position": [
+        71,
+        35
+      ],
+      "traits": "광개토왕 확장 시기의 요서 경쟁 세력.",
+      "sources": [
+        {
+          "title": "삼국사기 광개토왕기",
+          "url": "https://db.history.go.kr/ancient/",
+          "locator": null,
+          "edition": "국사편찬위원회 한국 고대 사료 DB",
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    },
+    {
+      "id": "khitan-liao",
+      "name": "거란 요",
+      "kind": "independent",
+      "color": "#a4b6a4",
+      "span": [
+        916,
+        1125
+      ],
+      "map_position": [
+        68,
+        31
+      ],
+      "traits": "926년 발해 멸망 단계에서 활성화된다.",
+      "sources": [
+        {
+          "title": "요사 태조본기",
+          "url": null,
+          "locator": null,
+          "edition": null,
+          "accessed_on": null,
+          "status": "candidate",
+          "claim": null,
+          "excerpt": null,
+          "type": "기록"
+        }
+      ]
+    }
+  ],
+  "relations": {
+    "tang_fronts": {
+      "nodes": [
+        {
+          "id": "center",
+          "label": "장안",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "steppe",
+          "label": "돌궐·설연타",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "northeast",
+          "label": "거란·말갈",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "gog",
+          "label": "고구려",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "southern-peninsula",
+          "label": "백제·신라",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "south",
+          "label": "남방",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "tibet",
+          "label": "토번",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "west",
+          "label": "서역",
+          "from_year": null,
+          "to_year": null
+        }
+      ],
+      "edges": [
+        {
+          "left": "center",
+          "right": "steppe",
+          "label": "북방",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "northeast",
+          "label": "동북",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "gog",
+          "label": "요동",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "southern-peninsula",
+          "label": "해로·외교",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "south",
+          "label": "남방",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "tibet",
+          "label": "서남",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "center",
+          "right": "west",
+          "label": "서역",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        }
+      ]
+    },
+    "wa_clans": {
+      "nodes": [
+        {
+          "id": "king",
+          "label": "왕실",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "soga-main",
+          "label": "소가 본가",
+          "from_year": null,
+          "to_year": 645
+        },
+        {
+          "id": "soga-line",
+          "label": "소가 방계",
+          "from_year": 645,
+          "to_year": null
+        },
+        {
+          "id": "nakatomi",
+          "label": "나카토미",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "otomo",
+          "label": "오토모",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "mononobe",
+          "label": "모노노베계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "azumi",
+          "label": "아즈미",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "migration",
+          "label": "도래계",
+          "from_year": null,
+          "to_year": null
+        }
+      ],
+      "edges": [
+        {
+          "left": "king",
+          "right": "soga-main",
+          "label": "정치",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": 645
+        },
+        {
+          "left": "king",
+          "right": "soga-line",
+          "label": "정치",
+          "kind": "설계",
+          "from_year": 645,
+          "to_year": null
+        },
+        {
+          "left": "king",
+          "right": "nakatomi",
+          "label": "제사·정치",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "king",
+          "right": "otomo",
+          "label": "군사",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "king",
+          "right": "mononobe",
+          "label": "군사 전통",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "king",
+          "right": "azumi",
+          "label": "해양",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "left": "king",
+          "right": "migration",
+          "label": "기술",
+          "kind": "설계",
+          "from_year": null,
+          "to_year": null
+        }
+      ]
+    },
+    "war_660": {
+      "nodes": [
+        {
+          "id": "tang",
+          "label": "당나라",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "sil",
+          "label": "신라",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "baek",
+          "label": "백제",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "gog",
+          "label": "고구려",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "wa",
+          "label": "왜나라",
+          "from_year": null,
+          "to_year": null
+        },
+        {
+          "id": "restoration",
+          "label": "부흥 세력",
+          "from_year": 660,
+          "to_year": 663
+        }
+      ],
+      "edges": [
+        {
+          "left": "tang",
+          "right": "sil",
+          "label": "동맹",
+          "kind": "동맹",
+          "from_year": 648,
+          "to_year": 660
+        },
+        {
+          "left": "tang",
+          "right": "baek",
+          "label": "사비 원정",
+          "kind": "전쟁",
+          "from_year": 660,
+          "to_year": 660
+        },
+        {
+          "left": "sil",
+          "right": "baek",
+          "label": "황산벌",
+          "kind": "전쟁",
+          "from_year": 660,
+          "to_year": 660
+        },
+        {
+          "left": "tang",
+          "right": "gog",
+          "label": "고구려 원정",
+          "kind": "전쟁",
+          "from_year": 645,
+          "to_year": 668
+        },
+        {
+          "left": "wa",
+          "right": "restoration",
+          "label": "부흥 지원",
+          "kind": "지원",
+          "from_year": 660,
+          "to_year": 663
+        },
+        {
+          "left": "tang",
+          "right": "restoration",
+          "label": "백강 전투",
+          "kind": "전쟁",
+          "from_year": 663,
+          "to_year": 663
+        },
+        {
+          "left": "tang",
+          "right": "sil",
+          "label": "나당전쟁",
+          "kind": "전쟁",
+          "from_year": 670,
+          "to_year": 676
+        }
+      ]
+    }
+  },
+  "growth": {
+    "label": "가상 문무겸전형",
+    "ages": [
+      12,
+      18,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75
+    ],
+    "series": {
+      "통솔": [
+        35,
+        62,
+        85,
+        97,
+        99,
+        97,
+        91,
+        80
+      ],
+      "무력": [
+        38,
+        73,
+        95,
+        93,
+        86,
+        74,
+        57,
+        39
+      ],
+      "지력": [
+        48,
+        72,
+        85,
+        94,
+        98,
+        98,
+        96,
+        91
+      ],
+      "정치": [
+        25,
+        48,
+        74,
+        90,
+        98,
+        99,
+        98,
+        94
+      ]
+    }
+  },
+  "frontier_rules": [
+    {
+      "id": "west-turk",
+      "neighbor": "tang",
+      "stock": 50,
+      "autonomy": 76
+    },
+    {
+      "id": "xueyantuo",
+      "neighbor": "tang",
+      "stock": 42,
+      "autonomy": 72
+    },
+    {
+      "id": "tibet",
+      "neighbor": "tang",
+      "stock": 55,
+      "autonomy": 79
+    },
+    {
+      "id": "tuyuhun",
+      "neighbor": "tang",
+      "stock": 48,
+      "autonomy": 65
+    },
+    {
+      "id": "khitan",
+      "neighbor": "gog",
+      "stock": 40,
+      "autonomy": 60
+    },
+    {
+      "id": "mohe",
+      "neighbor": "gog",
+      "stock": 48,
+      "autonomy": 63
+    }
+  ],
+  "houses": [
+    {
+      "id": "gog-yeon",
+      "name": "연씨",
+      "links": [
+        {
+          "left": "gaesomun",
+          "right": "연남생",
+          "label": "부자"
+        },
+        {
+          "left": "gaesomun",
+          "right": "연남건",
+          "label": "부자"
+        },
+        {
+          "left": "gaesomun",
+          "right": "연남산",
+          "label": "부자"
+        },
+        {
+          "left": "연남생",
+          "right": "gog-연헌성",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "gog-royal",
+      "name": "고구려 왕실",
+      "links": []
+    },
+    {
+      "id": "baek-buyeo",
+      "name": "부여씨 왕실",
+      "links": [
+        {
+          "left": "uija",
+          "right": "부여풍",
+          "label": "부자"
+        },
+        {
+          "left": "uija",
+          "right": "부여융",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "baek-sataek",
+      "name": "사택씨",
+      "links": [
+        {
+          "left": "사택적덕",
+          "right": "사택씨 왕후",
+          "label": "부녀"
+        }
+      ]
+    },
+    {
+      "id": "sil-kim-royal",
+      "name": "신라 김씨 왕실",
+      "links": [
+        {
+          "left": "김춘추",
+          "right": "김법민",
+          "label": "부자"
+        },
+        {
+          "left": "김춘추",
+          "right": "sil-김인문",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "sil-gaya-kim",
+      "name": "금관가야계 김씨",
+      "links": [
+        {
+          "left": "sil-김흠순",
+          "right": "반굴",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "tang-li",
+      "name": "당 황실 이씨",
+      "links": [
+        {
+          "left": "tang-이연",
+          "right": "shimin",
+          "label": "부자"
+        },
+        {
+          "left": "tang-이연",
+          "right": "tang-이건성",
+          "label": "부자"
+        },
+        {
+          "left": "shimin",
+          "right": "이치",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "tang-zhangsun",
+      "name": "장손씨",
+      "links": [
+        {
+          "left": "tang-장손황후",
+          "right": "wuji",
+          "label": "남매"
+        }
+      ]
+    },
+    {
+      "id": "wa-royal",
+      "name": "왜 왕실",
+      "links": [
+        {
+          "left": "고교쿠",
+          "right": "nakano",
+          "label": "모자"
+        },
+        {
+          "left": "고교쿠",
+          "right": "wa-덴무",
+          "label": "모자"
+        }
+      ]
+    },
+    {
+      "id": "wa-soga",
+      "name": "소가씨",
+      "links": [
+        {
+          "left": "소가노 에미시",
+          "right": "소가노 이루카",
+          "label": "부자"
+        }
+      ]
+    },
+    {
+      "id": "wa-nakatomi",
+      "name": "나카토미씨",
+      "links": []
+    },
+    {
+      "id": "wa-otomo",
+      "name": "오토모씨",
+      "links": []
+    },
+    {
+      "id": "wa-azumi",
+      "name": "아즈미씨",
+      "links": []
+    },
+    {
+      "id": "balhae-dae",
+      "name": "대씨 왕실",
+      "links": [
+        {
+          "left": "balhae-대조영",
+          "right": "balhae-대무예",
+          "label": "부자"
+        },
+        {
+          "left": "balhae-대무예",
+          "right": "balhae-대문예",
+          "label": "형제"
+        },
+        {
+          "left": "balhae-대무예",
+          "right": "balhae-대흠무",
+          "label": "부자"
+        }
+      ]
+    }
+  ]
+}

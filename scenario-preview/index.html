@@ -3,12 +3,16 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="645년의 다섯 세력을 고르고, 군령의 결과를 나만의 역사소설 초안으로 만들 수 있습니다.">
+<meta name="description" content="동아시아 역사 인물과 국가, 발해까지의 시나리오를 살펴보고 645년 다섯 세력의 군령을 체험합니다.">
 <title>해동연의 · 해동삼국지</title>
 <link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="./history.css">
 <script defer src="./data.js"></script>
 <script defer src="./coastline.js"></script>
 <script defer src="./simulation.js"></script>
+<script defer src="./history-data.js"></script>
+<script defer src="./strategy.js"></script>
+<script defer src="./history.js"></script>
 <script defer src="./app.js"></script>
 </head>
 <body>
@@ -16,12 +20,13 @@
 <main>
   <noscript><p role="status">세력지도와 인물 열전을 보려면 브라우저에서 JavaScript를 켜 주세요.</p></noscript>
   <section id="intro" class="hero" aria-labelledby="title">
-    <small>645년 · 동아시아</small>
+    <small>642년 1월 · 통합 기획 시작점</small>
     <h1 id="title">해동삼국지</h1>
-    <p>다섯 세력 중 하나를 골라 역사 속 상황에 대응하세요. 내린 군령과 그 결과로 나만의 역사소설 초안을 쓸 수 있습니다.</p>
-    <a class="action" href="#play/gog">고구려로 시작 · 초보자 안내</a>
+    <p>삼국과 당·왜의 인물과 정세를 살피고, 645년의 군령을 내려 나만의 역사소설 초안을 쓸 수 있습니다.</p>
+    <a class="action" href="#people">통합 인물 도감</a>
+    <a class="hero-link" href="#play/gog">645년 안시성 플레이</a>
+    <a class="hero-link" href="#timeline">시나리오 연표</a>
     <a class="hero-link" href="#map">세력지도 먼저 보기</a>
-    <a class="hero-link" href="#concept">기획 보기</a>
   </section>
   <section id="choose" aria-labelledby="faction-title">
     <h2 id="faction-title">세력 선택</h2>
@@ -29,7 +34,13 @@
   </section>
   <section id="scenario" hidden>
     <div class="context"><small>645년 · 5국 시뮬레이션</small><h1 id="scenario-title">해동삼국지</h1></div>
-    <nav aria-label="시나리오 메뉴"><a href="#map">세력지도</a><a href="#people">인물 열전</a><a href="#brief">안시성 브리핑</a><a id="play-nav" href="#play/gog">플레이</a><a id="story-nav" href="#story/gog">내 소설</a><a href="#concept">기획</a><a href="#">세력 선택</a></nav>
+    <nav aria-label="시나리오 메뉴"><a href="#map">세력지도</a><a href="#people">통합 도감</a><a href="#timeline">시나리오 연표</a><a href="#brief">안시성 브리핑</a><a id="play-nav" href="#play/gog">플레이</a><a id="story-nav" href="#story/gog">내 소설</a><a href="#concept">기획</a><a href="#">세력 선택</a></nav>
+    <section id="history-view" hidden>
+      <nav id="history-nav" class="history-nav" aria-label="통합 기획 메뉴">
+        <a href="#people">인물</a><a href="#polity">국가·가문</a><a href="#timeline">연표</a><a href="#relations">외교·전선</a><a href="#frontiers">변경 세력</a><a href="#growth">성장·노화</a><a href="#balhae">발해</a><a href="#evidence">출처</a><a href="#strategy">전략 AI</a>
+      </nav>
+      <div id="history-content"></div>
+    </section>
     <section id="map-view" hidden>
       <h2 tabindex="-1">세력지도</h2>
       <p>현대 해안선을 바탕으로 역사 거점의 대략적인 위치를 표시합니다. 모호한 성곽 위치는 목록에서 확인할 수 있습니다.</p>
@@ -44,8 +55,8 @@
       </div>
     </section>
     <section id="people-view" hidden>
-      <h2 tabindex="-1">인물 열전</h2>
-      <p>국가별 100명 편성 목표 · 정사·야사·전승을 우선 표시합니다. 645년 전후의 참고 인물과 시연 배치는 열전에서 확인할 수 있습니다.</p>
+      <h2 tabindex="-1">645년 시연 인물과 배역</h2>
+      <p>645년 전후의 참고 인물과 시연 배치입니다. 창작 인물과 가상 배역은 이 화면에서 확인할 수 있습니다. <a href="#people">통합 역사 인물 도감</a></p>
       <ul id="counts" class="legend"></ul>
       <form id="filters" class="filters">
         <label>이름·이명 <input id="query" type="search" placeholder="예  이세적"></label>

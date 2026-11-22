@@ -6,23 +6,23 @@
 
 ```sh
 python -m http.server 8000
+python scripts/build_history.py --check
 python scripts/check_preview.py
-node --check scenario-preview/data.js
-node --check scenario-preview/app.js
-node --test scripts/check_scenario.cjs
+node --test scripts/check_scenario.cjs scripts/check_strategy.cjs
+python -X utf8 -B -m unittest discover -s tests -v
 python -X utf8 -B -m unittest discover -s docs/HAEDONG_v1.0/08_Tests -v
 ```
 
-서버 명령은 별도 터미널에서 실행한다. `check_preview.py --output <새 디렉터리>`로 실제 업로드와 같은 파일 구성을 확인할 수 있다.
+서버 명령은 별도 터미널에서 실행한다. `data/history/`를 수정한 뒤 `python scripts/build_history.py`를 실행한다. `check_preview.py --output <새 디렉터리>`로 실제 업로드와 같은 파일 구성을 확인할 수 있다.
 
 ## 초기 게시와 검증
 
 1. [보안 점검](SECURITY_POLICY.md)을 완료한다. 공개 담당자가 준비되면 저장소 **Settings → General → Danger Zone → Change repository visibility → Make public**에서 직접 진행한다.
 2. **Settings → Pages → Build and deployment → Source → GitHub Actions**를 선택한다.
 3. **Actions → Publish scenario preview → Run workflow**에서 `main`을 선택한다. 이후 `main`의 PoC·검사·워크플로 변경은 자동 배포된다.
-4. 패키지 및 배포 작업이 성공하고 `github-pages` 환경에 URL이 표시되는지 확인한다. [공개 사이트](https://channyworks.github.io/haedong/)에서 페이지를 열고 CSS·JS 응답과 지도, 검색, 거점 상세, 열전, 브리핑을 PC와 모바일에서 확인한다.
+4. 패키지 및 배포 작업이 성공하고 `github-pages` 환경에 URL이 표시되는지 확인한다. 공개 사이트에서 CSS·JS 응답, 도감의 연도·검증 상태 검색, 연표, 지도와 군령을 PC와 모바일에서 확인한다. [PoC 진입점](https://channyworks.github.io/haedong/scenario-preview/) · [기존 루트](https://channyworks.github.io/haedong/)
 
-워크플로는 `scenario-preview/`에서 검증된 HTML·CSS·JS 여섯 파일만 아티팩트 루트에 복사한다. 루트 테스트 페이지, 문서, 계획, 이미지와 원본 자료는 Pages에 포함되지 않는다. GitHub Pages에 게시하면 로컬 PC가 꺼져도 접속할 수 있다.
+워크플로는 `scenario-preview/`의 검증된 HTML·CSS·JS 열 파일을 아티팩트 루트와 `scenario-preview/`에 각각 복사한다. 기존 루트와 하위 경로는 같은 출처의 브라우저 저장을 사용한다. 문서, 계획, 이미지와 원본 자료는 Pages에 포함되지 않는다.
 
 ## 장애와 복구
 

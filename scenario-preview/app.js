@@ -345,29 +345,32 @@ function showRoute(moveFocus = false) {
   const item = route === "site" ? bySite.get(legacySites.get(id) ?? id) : route === "person" ? byPerson.get(id) : undefined;
   const campaignRoute = ["play", "story"].includes(route) && Object.hasOwn(simulator.campaigns, id);
   if (campaignRoute) selectedCampaign = id;
-  const active = item || campaignRoute || ["map", "people", "brief", "concept"].includes(route) ? route : "intro";
-  const views = {intro:"intro", map:"map-view", people:"people-view", brief:"brief", site:"detail", person:"detail",
-    play:"play", story:"story", concept:"concept"};
+  const integrated = window.haedongHistory.routes.includes(route);
+  const active = item || campaignRoute || integrated || ["map", "cast", "brief", "concept"].includes(route) ? route : "intro";
+  const views = {intro:"intro", map:"map-view", cast:"people-view", brief:"brief", site:"detail", person:"detail",
+    play:"play", story:"story", concept:"concept", ...Object.fromEntries(window.haedongHistory.routes.map(name => [name, "history-view"]))};
   get("choose").hidden = active !== "intro";
   get("scenario").hidden = active === "intro";
-  get("scenario-title").textContent = simulator.campaigns[selectedCampaign].faction + " · 해동삼국지";
+  get("scenario-title").textContent = integrated ? "해동삼국지" : simulator.campaigns[selectedCampaign].faction + " · 해동삼국지";
+  get("scenario").querySelector(".context small").textContent = integrated ? "동아시아 · 통합 기획" : "645년 · 5국 시뮬레이션";
   get("play-nav").href = "#play/" + selectedCampaign;
   get("story-nav").href = "#story/" + selectedCampaign;
   for (const view of new Set(Object.values(views))) get(view).hidden = view !== views[active];
   for (const anchor of document.querySelectorAll("nav a")) {
-    const section = {site:"map", person:"people"}[active] ?? active;
+    const section = {site:"map", person:"people", cast:"people"}[active] ?? active;
     if (anchor.hash.split("/")[0] === "#" + section) anchor.setAttribute("aria-current", "page");
     else anchor.removeAttribute("aria-current");
   }
   if (item) {
     const heading = element("h2", item.name);
     heading.tabIndex = -1;
-    const back = active === "site" ? ["세력지도로", "#map"] : ["인물 목록으로", "#people"];
+    const back = active === "site" ? ["세력지도로", "#map"] : ["645년 배역 목록으로", "#cast"];
     get("detail").replaceChildren(heading, ...(active === "site" ? siteDetail(item) : personDetail(item)), element("hr"), link(...back));
   }
   if (active === "map") renderMap();
   if (active === "play") renderPlay(id);
   if (active === "story") renderStory(id);
+  if (integrated) window.haedongHistory.render(route);
   if (moveFocus) {
     window.scrollTo(0, 0);
     const heading = get(views[active]).querySelector("h1, h2");

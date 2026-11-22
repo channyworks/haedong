@@ -8,8 +8,11 @@ from urllib.parse import urljoin, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1] / "scenario-preview"
-PUBLIC_FILES = ("index.html", "style.css", "data.js", "coastline.js", "simulation.js", "app.js")
-BASE = "https://example.invalid/haedong/"
+PUBLIC_FILES = (
+    "index.html", "style.css", "data.js", "coastline.js", "simulation.js", "app.js",
+    "history.css", "history-data.js", "history.js", "strategy.js",
+)
+BASE = "https://example.invalid/haedong/scenario-preview/"
 
 
 class PreviewDocument(HTMLParser):
@@ -34,9 +37,9 @@ class PreviewDocument(HTMLParser):
             if ref.scheme or ref.netloc or value.startswith("/"):
                 raise ValueError(f"Expected a relative asset reference: {value}")
             path = urlsplit(urljoin(BASE, value)).path
-            if not path.startswith("/haedong/"):
+            if not path.startswith("/haedong/scenario-preview/"):
                 raise ValueError(f"Asset escapes the Pages project prefix: {value}")
-            self.assets.add(path.removeprefix("/haedong/"))
+            self.assets.add(path.removeprefix("/haedong/scenario-preview/"))
 
 
 def main():
@@ -54,8 +57,10 @@ def main():
             raise SystemExit(f"Missing or invalid public file: {name}")
     if args.output:
         args.output.mkdir(parents=True)
-        for name in PUBLIC_FILES:
-            copyfile(ROOT / name, args.output / name)
+        for destination in (args.output, args.output / "scenario-preview"):
+            destination.mkdir(exist_ok=True)
+            for name in PUBLIC_FILES:
+                copyfile(ROOT / name, destination / name)
     print("Verified " + ", ".join(PUBLIC_FILES))
 
 

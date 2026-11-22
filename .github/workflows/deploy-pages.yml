@@ -5,8 +5,12 @@ on:
     branches: [main]
     paths:
       - 'scenario-preview/**'
+      - 'data/history/**'
+      - 'tests/test_history_data.py'
+      - 'scripts/build_history.py'
       - 'scripts/check_preview.py'
       - 'scripts/check_scenario.cjs'
+      - 'scripts/check_strategy.cjs'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -28,7 +32,9 @@ jobs:
       - name: Verify preview and assemble artifact
         run: |
           for file in scenario-preview/*.js; do node --check "$file"; done
-          node --test scripts/check_scenario.cjs
+          node --test scripts/check_*.cjs
+          python scripts/build_history.py --check
+          python -m unittest discover -s tests -v
           python scripts/check_preview.py --output "$RUNNER_TEMP/haedong-pages"
       - uses: actions/upload-pages-artifact@v4
         with:
