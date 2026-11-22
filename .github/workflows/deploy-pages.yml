@@ -3,7 +3,10 @@ name: Publish scenario preview
 on:
   push:
     branches: [main]
-    paths: ['scenario-preview/**', '.github/workflows/scenario-pages.yml']
+    paths:
+      - 'scenario-preview/**'
+      - 'scripts/check_preview.py'
+      - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
 permissions:
@@ -15,15 +18,20 @@ concurrency:
 
 jobs:
   package:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - run: |
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Verify preview and assemble artifact
+        run: |
           node --check scenario-preview/data.js
           node --check scenario-preview/app.js
-      - uses: actions/upload-pages-artifact@v3
+          python scripts/check_preview.py --output "$RUNNER_TEMP/haedong-pages"
+      - uses: actions/upload-pages-artifact@v4
         with:
-          path: scenario-preview
+          path: ${{ runner.temp }}/haedong-pages
   deploy:
     needs: package
     runs-on: ubuntu-latest
@@ -34,5 +42,6 @@ jobs:
       name: github-pages
       url: ${{ steps.publish.outputs.page_url }}
     steps:
+      - uses: actions/configure-pages@v5
       - id: publish
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
