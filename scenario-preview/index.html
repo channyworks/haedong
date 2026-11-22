@@ -3,50 +3,74 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="해동연의 첫 시나리오의 5국 지도, 거점, 인물과 내정 준비를 살펴봅니다.">
-<title>안시성의 불멸 · 해동연의</title>
+<meta name="description" content="645년의 다섯 세력을 고르고, 군령의 결과를 나만의 역사소설 초안으로 만들 수 있습니다.">
+<title>해동연의 · 해동삼국지</title>
 <link rel="stylesheet" href="./style.css">
 <script defer src="./data.js"></script>
+<script defer src="./coastline.js"></script>
+<script defer src="./simulation.js"></script>
 <script defer src="./app.js"></script>
 </head>
 <body>
-<header class="mast"><a href="#">해동연의</a><span>시나리오 기획 초안</span></header>
+<header class="mast"><a href="#">해동연의</a><span>해동삼국지 · 시연</span></header>
 <main>
   <noscript><p role="status">세력지도와 인물 열전을 보려면 브라우저에서 JavaScript를 켜 주세요.</p></noscript>
   <section id="intro" class="hero" aria-labelledby="title">
-    <small>645년 · 고구려와 당의 전쟁</small>
-    <h1 id="title">안시성의<br>불멸</h1>
-    <p>안시성의 성벽을 지키고 구원군이 닿을 길을 열어라.</p>
-    <a class="action" href="#map">시나리오 진입</a>
+    <small>645년 · 동아시아</small>
+    <h1 id="title">해동삼국지</h1>
+    <p>다섯 세력 중 하나를 골라 역사 속 상황에 대응하세요. 내린 군령과 그 결과로 나만의 역사소설 초안을 쓸 수 있습니다.</p>
+    <a class="action" href="#play/gog">고구려로 시작 · 초보자 안내</a>
+    <a class="hero-link" href="#map">세력지도 먼저 보기</a>
+    <a class="hero-link" href="#concept">기획 보기</a>
+  </section>
+  <section id="choose" aria-labelledby="faction-title">
+    <h2 id="faction-title">세력 선택</h2>
+    <div id="campaigns" class="campaigns"></div>
   </section>
   <section id="scenario" hidden>
-    <div class="context"><small>645년 · 내정 직전</small><h1>안시성의 불멸</h1></div>
-    <nav aria-label="시나리오 메뉴"><a href="#map">세력지도</a><a href="#people">인물 열전</a><a href="#brief">내정 브리핑</a></nav>
+    <div class="context"><small>645년 · 5국 시뮬레이션</small><h1 id="scenario-title">해동삼국지</h1></div>
+    <nav aria-label="시나리오 메뉴"><a href="#map">세력지도</a><a href="#people">인물 열전</a><a href="#brief">안시성 브리핑</a><a id="play-nav" href="#play/gog">플레이</a><a id="story-nav" href="#story/gog">내 소설</a><a href="#concept">기획</a><a href="#">세력 선택</a></nav>
     <section id="map-view" hidden>
       <h2 tabindex="-1">세력지도</h2>
-      <p>5국의 거점과 게임용 연결로를 표시한 개념도입니다.</p>
+      <p>현대 해안선을 바탕으로 역사 거점의 대략적인 위치를 표시합니다. 모호한 성곽 위치는 목록에서 확인할 수 있습니다.</p>
+      <div id="map-controls" class="map-controls" aria-label="지도 권역"></div>
       <div class="map-layout">
         <div>
-          <div id="map" class="map" aria-label="5국 세력 개념도"></div>
+          <div id="map" class="map" aria-label="5국 세력과 거점 지도"><canvas id="coastline" aria-hidden="true"></canvas><div id="markers"></div></div>
           <ul id="legend" class="legend" aria-label="세력 범례"></ul>
+          <p class="caption">색은 시연에서의 거점 소속을 뜻합니다. 연결로는 플레이용이며 당대 국경선과 실측 경로는 표시하지 않습니다. <a href="https://www.naturalearthdata.com/downloads/50m-physical-vectors/50m-land/">해안선 자료</a></p>
         </div>
         <div class="panel"><h3>거점 목록</h3><div id="sites" class="site-list"></div></div>
       </div>
     </section>
     <section id="people-view" hidden>
       <h2 tabindex="-1">인물 열전</h2>
-      <p>국가별 100명 편성 목표 · 사료와 작품 설정을 확인한 인물부터 등록합니다.</p>
+      <p>국가별 100명 편성 목표 · 정사·야사·전승을 우선 표시합니다. 645년 전후의 참고 인물과 시연 배치는 열전에서 확인할 수 있습니다.</p>
       <ul id="counts" class="legend"></ul>
       <form id="filters" class="filters">
         <label>이름·이명 <input id="query" type="search" placeholder="예  이세적"></label>
         <label>세력 <select id="nation"><option value="">전체</option></select></label>
         <label>역할 <select id="role"><option value="">전체</option></select></label>
+        <label>출처 유형 <select id="evidence"><option value="historical">기록·전승 우선</option><option value="">전체</option><option>정사</option><option>금석문</option><option>야사·전승</option><option>전승</option><option>창작</option></select></label>
         <label>배치 여부 <select id="assigned"><option value="">전체</option><option value="yes">배치</option><option value="no">미배치</option></select></label>
       </form>
       <p id="count" role="status"></p>
       <div id="roster" class="roster"></div>
     </section>
     <section id="detail" class="panel detail" hidden></section>
+    <section id="play" class="panel detail" hidden></section>
+    <section id="story" class="panel detail" hidden></section>
+    <section id="concept" class="panel detail" hidden>
+      <h2 tabindex="-1">게임에서 소설까지</h2>
+      <p>해동삼국지는 실제 사건과 인물 자료를 바탕으로 서로 다른 선택의 결과를 살펴보는 역사 시뮬레이션입니다. 이번 시연은 645년의 다섯 세력이 마주한 상황을 네 번의 명령으로 체험합니다.</p>
+      <dl class="facts">
+        <dt>초보자 코스</dt><dd>고구려 선택, 안시성 수비와 구원 준비, 군령 결과 확인, 소설 초안 저장 순으로 이어집니다.</dd>
+        <dt>5국 플레이</dt><dd>백제는 사비와 접경, 신라는 서라벌과 매리포성, 왜는 아스카와 난바, 당은 요동 원정의 판단을 다룹니다.</dd>
+        <dt>플레이 기록</dt><dd>선택한 군령과 전후 지표를 브라우저에 저장합니다. 기록에서 소설 초안을 만들고 Markdown 파일로 저장해 편집할 수 있습니다.</dd>
+        <dt>참고 소설</dt><dd>역사와 사료를 바탕으로 별도로 쓰는 《해동연의》는 배경과 문체 참고 자료입니다. 플레이어의 소설에는 그 판에서 내린 결정과 발생한 결과가 반영됩니다.</dd>
+      </dl>
+      <p><a href="https://github.com/channyworks/haedong/blob/main/docs/PLAY_TO_NOVEL.md">상세 기획과 개발 범위</a></p>
+    </section>
     <section id="brief" class="panel detail" hidden>
       <h2 tabindex="-1">내정 직전 브리핑</h2>
       <p>첫 군령 전, 안시성 수비와 오골성 수송에 배치할 인물을 확인합니다. 준비는 3턴, 턴마다 명령 2개를 잠정 기준으로 합니다.</p>

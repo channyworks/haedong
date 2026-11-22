@@ -6,6 +6,7 @@ on:
     paths:
       - 'scenario-preview/**'
       - 'scripts/check_preview.py'
+      - 'scripts/check_scenario.cjs'
       - '.github/workflows/deploy-pages.yml'
   workflow_dispatch:
 
@@ -26,8 +27,8 @@ jobs:
           persist-credentials: false
       - name: Verify preview and assemble artifact
         run: |
-          node --check scenario-preview/data.js
-          node --check scenario-preview/app.js
+          for file in scenario-preview/*.js; do node --check "$file"; done
+          node --test scripts/check_scenario.cjs
           python scripts/check_preview.py --output "$RUNNER_TEMP/haedong-pages"
       - uses: actions/upload-pages-artifact@v4
         with:

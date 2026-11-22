@@ -8,7 +8,7 @@ from urllib.parse import urljoin, urlsplit
 
 
 ROOT = Path(__file__).resolve().parents[1] / "scenario-preview"
-PUBLIC_FILES = ("index.html", "style.css", "data.js", "app.js")
+PUBLIC_FILES = ("index.html", "style.css", "data.js", "coastline.js", "simulation.js", "app.js")
 BASE = "https://example.invalid/haedong/"
 
 
@@ -29,6 +29,8 @@ class PreviewDocument(HTMLParser):
             if not value or value.startswith("#"):
                 continue
             ref = urlsplit(value)
+            if tag == "a" and ref.scheme == "https" and ref.netloc:
+                continue
             if ref.scheme or ref.netloc or value.startswith("/"):
                 raise ValueError(f"Expected a relative asset reference: {value}")
             path = urlsplit(urljoin(BASE, value)).path
