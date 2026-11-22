@@ -1,0 +1,176 @@
+{
+  "classification": "reconciliation_not_full_ledger",
+  "final_garrison": {
+    "opening": 23010,
+    "dead": 897,
+    "wounded": 0,
+    "available": 22113,
+    "difference": 0
+  },
+  "units_total": 22113,
+  "prisoners": {
+    "captured": 1821,
+    "released_prior": 183,
+    "exchange": 1638,
+    "remaining": 0,
+    "difference": 0,
+    "known_B021_subset": 146,
+    "unexplained_prior_subset": 37
+  },
+  "returnees": {
+    "total": 1420,
+    "add_to_garrison": false
+  },
+  "independent_outpost": {
+    "strength": 3000,
+    "subtract_from_garrison": false
+  },
+  "midpoint_deltas": [
+    {
+      "from": "START",
+      "to": "B004",
+      "delta_available": -304,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B004",
+      "to": "B005",
+      "delta_available": 2,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B005",
+      "to": "B006",
+      "delta_available": 5,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B006",
+      "to": "B007",
+      "delta_available": -73,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B007",
+      "to": "B008R",
+      "delta_available": -229,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B008R",
+      "to": "B009",
+      "delta_available": -471,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B009",
+      "to": "B010",
+      "delta_available": -117,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B010",
+      "to": "B011",
+      "delta_available": -285,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B011",
+      "to": "B012",
+      "delta_available": 87,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B012",
+      "to": "B013",
+      "delta_available": -213,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B013",
+      "to": "B014",
+      "delta_available": -334,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B014",
+      "to": "B015",
+      "delta_available": -232,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B015",
+      "to": "B016",
+      "delta_available": -488,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B016",
+      "to": "B017",
+      "delta_available": 218,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B017",
+      "to": "B018",
+      "delta_available": 108,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B018",
+      "to": "B019",
+      "delta_available": 414,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B019",
+      "to": "B020",
+      "delta_available": 228,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B020",
+      "to": "B021",
+      "delta_available": 250,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B021",
+      "to": "B022",
+      "delta_available": null,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B022",
+      "to": "B023",
+      "delta_available": null,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "B023",
+      "to": "POST_000",
+      "delta_available": null,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "POST_000",
+      "to": "POST_001",
+      "delta_available": null,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "POST_001",
+      "to": "POST_002",
+      "delta_available": null,
+      "casualty_recovery_breakdown": null
+    },
+    {
+      "from": "POST_002",
+      "to": "POST_003",
+      "delta_available": 2,
+      "casualty_recovery_breakdown": null
+    }
+  ],
+  "supply_flow_complete": false,
+  "casualty_flow_complete": false
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "01_strategy",
+    "title": "요동 전략 개념도",
+    "phase": "요동의 여러 성과 평양·오골성의 관계;위치·거리 미확정",
+    "svg": "../05_Maps/01_strategy.svg",
+    "png": "../05_Maps/01_strategy.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "02_siege",
+    "title": "포위와 토산",
+    "phase": "START · 상대17일10:00",
+    "svg": "../05_Maps/02_siege.svg",
+    "png": "../05_Maps/02_siege.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "03_sortie",
+    "title": "토산 역습",
+    "phase": "B004 · 상대17일13:40",
+    "svg": "../05_Maps/03_sortie.svg",
+    "png": "../05_Maps/03_sortie.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "04_contact",
+    "title": "협곡 북쪽 접촉",
+    "phase": "B006 · 상대17일14:55",
+    "svg": "../05_Maps/04_contact.svg",
+    "png": "../05_Maps/04_contact.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "05_west",
+    "title": "서쪽 우회",
+    "phase": "B007 · 상대17일15:18",
+    "svg": "../05_Maps/05_west.svg",
+    "png": "../05_Maps/05_west.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "06_first",
+    "title": "첫 방어선 돌파",
+    "phase": "B008R · 상대17일15:51",
+    "svg": "../05_Maps/06_first.svg",
+    "png": "../05_Maps/06_first.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "07_second",
+    "title": "두 번째 방어선 돌파",
+    "phase": "B009 · 상대17일17:51",
+    "svg": "../05_Maps/07_second.svg",
+    "png": "../05_Maps/07_second.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "08_night",
+    "title": "야간 협공·군량 합류",
+    "phase": "B010~011 · 상대17일 밤",
+    "svg": "../05_Maps/08_night.svg",
+    "png": "../05_Maps/08_night.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "09_mound",
+    "title": "토산 붕괴·점령",
+    "phase": "B013~015 · 상대18일",
+    "svg": "../05_Maps/09_mound.svg",
+    "png": "../05_Maps/09_mound.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "10_outer",
+    "title": "외곽 진지·차단선",
+    "phase": "B016~018 · 상대18~19일",
+    "svg": "../05_Maps/10_outer.svg",
+    "png": "../05_Maps/10_outer.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "11_withdrawal",
+    "title": "휴전과 철군",
+    "phase": "B020~023 · 상대19~20일",
+    "svg": "../05_Maps/11_withdrawal.svg",
+    "png": "../05_Maps/11_withdrawal.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  },
+  {
+    "id": "12_winter",
+    "title": "겨울 방어와 독립 거점",
+    "phase": "POST_003 · 상대150일13:00",
+    "svg": "../05_Maps/12_winter.svg",
+    "png": "../05_Maps/12_winter.png",
+    "historical_geography_verified": false,
+    "scale": null,
+    "kind": "N_schematic"
+  }
+]

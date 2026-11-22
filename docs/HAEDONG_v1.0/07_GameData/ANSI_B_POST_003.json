@@ -1,0 +1,28 @@
+{
+  "id": "ANSI_B_POST_003",
+  "day": 150,
+  "time": "13:00",
+  "initial_garrison": 23010,
+  "dead": 897,
+  "wounded": 0,
+  "available": 22113,
+  "units": {
+    "wall": 6993,
+    "archers": 4802,
+    "heavy": 3400,
+    "mobile": 2179,
+    "engineers": 1653,
+    "reserve": 3086
+  },
+  "prisoners_captured": 1821,
+  "prisoners_released_prior": 183,
+  "prisoners_exchange": 1638,
+  "prisoners_remaining": 0,
+  "returned_koguryo": 1420,
+  "supply_index": 78.6,
+  "finance_index": 67,
+  "fame": 3600,
+  "influence": 58,
+  "independent_yangdeok": 3000,
+  "source_status": "visible prior report; indices fictional"
+}

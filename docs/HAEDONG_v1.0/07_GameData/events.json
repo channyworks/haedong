@@ -1,0 +1,252 @@
+[
+  {
+    "id": "EV_000",
+    "checkpoint": "START",
+    "description": "토산 53%, 구원군 18000 출진",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25080,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_001",
+    "checkpoint": "B004",
+    "description": "토산 역습 이후 정찰과 치료",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25300,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_002",
+    "checkpoint": "B005",
+    "description": "중장보병과 기동대 출진",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25345,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_003",
+    "checkpoint": "B006",
+    "description": "협곡 북쪽 접촉",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25375,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_004",
+    "checkpoint": "B007",
+    "description": "서쪽 우회 시도",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25398,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_005",
+    "checkpoint": "B008R",
+    "description": "첫 방어선 돌파, 선발대 탈출 시작",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25431,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_006",
+    "checkpoint": "B009",
+    "description": "두 번째 방어선 돌파, 선발대 합류",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25551,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_007",
+    "checkpoint": "B010",
+    "description": "양덕 공성진지 기습, 구원군 도착",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25671,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_008",
+    "checkpoint": "B011",
+    "description": "남북 협공, 오골성 수레 80대 도착",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 25851,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_009",
+    "checkpoint": "B012",
+    "description": "휴식, 포로 조사",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 26031,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_010",
+    "checkpoint": "B013",
+    "description": "03:12 토산 붕괴",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 26271,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_011",
+    "checkpoint": "B014",
+    "description": "당군 반격 격퇴",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 26511,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_012",
+    "checkpoint": "B015",
+    "description": "토산 점령",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 26751,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_013",
+    "checkpoint": "B016",
+    "description": "외곽 공성진지 점령",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 26991,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_014",
+    "checkpoint": "B017",
+    "description": "수레 48대 확보, 휴전 제안",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 27231,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_015",
+    "checkpoint": "B018",
+    "description": "차단진지 확보, 포로 1821",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 27471,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_016",
+    "checkpoint": "B019",
+    "description": "철군 조건 협상",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 27831,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_017",
+    "checkpoint": "B020",
+    "description": "09:02 휴전 발효, 10:16 철군 시작",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 28071,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_018",
+    "checkpoint": "B021",
+    "description": "포로 146 송환, 수레 120대 도착",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 28431,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_019",
+    "checkpoint": "B022",
+    "description": "다음 군령에서 부상병 369, 포로 1647 확인",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 28791,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_020",
+    "checkpoint": "B023",
+    "description": "완전 철군, 포로 1638, S+ 98점",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 29511,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_021",
+    "checkpoint": "POST_000",
+    "description": "후일담 시작",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 29580,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_022",
+    "checkpoint": "POST_001",
+    "description": "특별 은전, 복구, 조정 포상",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 43980,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_023",
+    "checkpoint": "POST_002",
+    "description": "왕명 수락, 교환 교섭, 양덕 발탁",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 87180,
+    "absolute_date": null,
+    "payload_details": null
+  },
+  {
+    "id": "EV_024",
+    "checkpoint": "POST_003",
+    "description": "포로 교환 완료, 동계 방어",
+    "kind": "G",
+    "source_status": "reconstructed_summary",
+    "minute": 216780,
+    "absolute_date": null,
+    "payload_details": null
+  }
+]

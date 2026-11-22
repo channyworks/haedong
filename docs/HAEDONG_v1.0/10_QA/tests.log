@@ -1,0 +1,36 @@
+test_asset_references_in_markdown (test_documents.DocumentChecks.test_asset_references_in_markdown) ... ok
+test_image_counts (test_documents.DocumentChecks.test_image_counts) ... ok
+test_novel_is_unique_complete_prose (test_documents.DocumentChecks.test_novel_is_unique_complete_prose) ... ok
+test_required_deliverables (test_documents.DocumentChecks.test_required_deliverables) ... ok
+test_word_images_not_clipped_by_fixed_line_height (test_documents.DocumentChecks.test_word_images_not_clipped_by_fixed_line_height) ... ok
+test_character_ids_and_portraits (test_validation.ArchiveTests.test_character_ids_and_portraits) ... ok
+test_derived_checkpoints_match_source (test_validation.ArchiveTests.test_derived_checkpoints_match_source) ... ok
+test_event_order_and_references (test_validation.ArchiveTests.test_event_order_and_references) ... ok
+test_final_garrison (test_validation.ArchiveTests.test_final_garrison) ... ok
+test_json_syntax (test_validation.ArchiveTests.test_json_syntax) ... ok
+test_map_assets (test_validation.ArchiveTests.test_map_assets) ... ok
+test_no_false_addition_of_independent_people (test_validation.ArchiveTests.test_no_false_addition_of_independent_people) ... ok
+test_null_and_replacement (test_validation.ArchiveTests.test_null_and_replacement) ... ok
+test_original_archive_hashes (test_validation.ArchiveTests.test_original_archive_hashes) ... ok
+test_prisoners (test_validation.ArchiveTests.test_prisoners) ... ok
+test_promoted_snapshots_are_byte_identical (test_validation.ArchiveTests.test_promoted_snapshots_are_byte_identical) ... ok
+test_schemas (test_validation.ArchiveTests.test_schemas) ... ok
+test_unknowns_preserved (test_validation.ArchiveTests.test_unknowns_preserved) ... ok
+test_ai_cannot_mutate_state (test_validation.KernelTests.test_ai_cannot_mutate_state) ... ok
+test_all_none_policies (test_validation.KernelTests.test_all_none_policies) ... ok
+test_casualty_and_recovery (test_validation.KernelTests.test_casualty_and_recovery) ... ok
+test_conflicting_unit_orders (test_validation.KernelTests.test_conflicting_unit_orders) ... ok
+test_failed_batch_is_atomic (test_validation.KernelTests.test_failed_batch_is_atomic) ... ok
+test_idempotency_before_version_check (test_validation.KernelTests.test_idempotency_before_version_check) ... ok
+test_idempotency_mismatch (test_validation.KernelTests.test_idempotency_mismatch) ... ok
+test_integer_constraints (test_validation.KernelTests.test_integer_constraints) ... ok
+test_interrupt_remaining_and_no_automatic_resume (test_validation.KernelTests.test_interrupt_remaining_and_no_automatic_resume) ... ok
+test_long_sequence_conserves_people (test_validation.KernelTests.test_long_sequence_conserves_people) ... ok
+test_prisoner_handover_and_no_double_release (test_validation.KernelTests.test_prisoner_handover_and_no_double_release) ... ok
+test_seed_reproducibility (test_validation.KernelTests.test_seed_reproducibility) ... ok
+test_stale_version (test_validation.KernelTests.test_stale_version) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.067s
+
+OK

@@ -1,0 +1,15 @@
+{
+  "novel_chars": 40997,
+  "portraits": 20,
+  "scene_illustrations": 20,
+  "maps_svg": 12,
+  "maps_png": 12,
+  "tests_passed": 31,
+  "tests_failed": 0,
+  "documents": {
+    "02_Scenario/scenario_book.pdf": 18,
+    "01_Novel/haedong_novel.pdf": 110,
+    "06_Codex/game_design.pdf": 3,
+    "03_Characters/character_bible.pdf": 21
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "id": "ANSI_BRANCH_B",
+  "title": "안시성의 불멸",
+  "historical_year": 645,
+  "absolute_start": null,
+  "start_checkpoint": "START",
+  "reference_end": "POST_003",
+  "mode": "historical_branch_reference",
+  "reference_replay_forces_outcome": false,
+  "reference_data_engine_import": "read_only_archive",
+  "playable_ruleset": "haedong_prototype_1",
+  "victory": {
+    "kind": "fortress_survives_and_enemy_withdraws",
+    "deadline_minutes": null
+  },
+  "defeat": {
+    "kind": "fortress_captured_or_garrison_unavailable"
+  },
+  "alternative_outcomes": [
+    "공성 장기화",
+    "협상 결렬",
+    "구원군 지연",
+    "성 함락",
+    "당군 조기 철수"
+  ],
+  "initial_known": {
+    "garrison": 23010,
+    "enemy": 57150,
+    "morale": 99,
+    "supply_index": 39,
+    "fatigue": 31,
+    "command": 95,
+    "wall_percent": 76,
+    "enemy_morale": 40,
+    "enemy_supply_index": 25,
+    "enemy_fatigue": 69,
+    "enemy_command": 82,
+    "mound_percent": 53,
+    "source": "사용자 제공 과거 대화 요약;전체 원문 미확인"
+  },
+  "external_forces": [
+    {
+      "id": "relief",
+      "strength": 18000,
+      "ownership": "independent",
+      "advance": 4000,
+      "main": 14000
+    },
+    {
+      "id": "escort",
+      "strength": 1500,
+      "ownership": "independent"
+    },
+    {
+      "id": "yangdeok_outpost",
+      "strength": 3000,
+      "ownership": "independent",
+      "creation_flow": null
+    }
+  ],
+  "resource_units": {
+    "supply_index": "index_0_100",
+    "finance_index": "index_0_100",
+    "grain_kg": null,
+    "wagons": "count_not_grain"
+  },
+  "rng_seed": 645,
+  "historical_calendar": "unresolved"
+}

@@ -1,0 +1,8 @@
+{
+  "crc": "pass",
+  "manifest_hashes": "pass",
+  "manifest_files": 125,
+  "zip_entries_before_receipt": 126,
+  "missing_required_files": [],
+  "note": "검증 결과 영수증은 매니페스트 자체검증 범위 밖에 추가한다."
+}

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": [
+      "id",
+      "name",
+      "provenance",
+      "role",
+      "appearance",
+      "stats"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^[a-z_]+$"
+      },
+      "name": {
+        "type": "string",
+        "minLength": 1
+      },
+      "stats": {
+        "type": [
+          "object",
+          "null"
+        ]
+      },
+      "visual_age": {
+        "type": "integer",
+        "minimum": 1
+      }
+    },
+    "additionalProperties": true
+  }
+}

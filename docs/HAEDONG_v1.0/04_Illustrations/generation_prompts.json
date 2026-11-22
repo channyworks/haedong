@@ -1,0 +1,246 @@
+[
+  {
+    "id": "portrait_go_mujin",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 고무진: 45, broad robust face, deep left cheek crease, clean shaven, dark iron helmet, brown collar, fortress wall guard commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_eul_dusan",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 을두산: 42, lean long face, narrow observant eyes, thin mustache, gray headwrap, olive collar, archer commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_go_yeonsu",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 고연수: 50, wide high forehead, crow feet, full short beard, iron helmet, muted ochre collar, heavy spearman commander. Fictional alternate role distinct from history. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_hae_myeongjin",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 해명진: 34, lean angular face, faint chin stubble, windswept tied black hair, indigo scarf, light lamellar armor, mobile cavalry scout. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_mok_cheol",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 목철: 46, square nose, heavy eyebrows, clean shaven, tied cloth band, brown work tunic, large hands old burn marks, fortress engineer. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_yang_deok",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 양덕: 29, youthful oval face, sparse short beard, restrained serious expression, dark green collar, plain iron helmet, reserve commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_go_jinmu",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 고진무: 31, narrow oval face, straight mouth, clean shaven, simple brown collar, iron helmet, quiet reserve infantry commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_go_jeongmu",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 고정무: 47, weathered round face, short dark beard, worn black cloak, modest iron helmet, independent relief commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_go_jinseong",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 고진성: 32, slim triangular face, pronounced brows, clean shaven, dark red scarf, plain lamellar armor, relief vanguard commander. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_bojang",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 보장왕: royal man age 40, calm long face, thin mustache, restrained dark red Goguryeo royal robe and historically inspired modest gold crown, no Qing or Joseon outfit. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_yeon_gaesomun",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 연개소문: man age 42, broad stern face, thick eyebrows, black full beard, dark iron armor and black mantle, Goguryeo statesman. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_yeon_namsaeng",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 연남생: BOY age 11 in 645, youthful round face, tied black hair, simple muted blue aristocratic Goguryeo tunic, NO beard NO armor NO adult appearance. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_li_shimin",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 이세민: Tang emperor age 47, long strong face, trimmed mustache and goatee, plain black Tang cap, dark burgundy robe, thoughtful expression. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_li_shiji",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 이세적: Tang general age 51, narrow weathered face, sparse graying beard, Tang iron helmet, navy collar, restrained expression. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_li_daozong",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 이도종: Tang general age 45, broad angular face, thick short beard, iron helmet, muted rust collar, stern tired eyes. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_ashina_sheer",
+    "directory": "03_Characters",
+    "prompt": "Use case: historical-scene. Single chest-up portrait for HAEDONG Korean historical novel. Subject 아사나사이: Tang Turkic cavalry commander age 40, high cheekbones, short beard, dark leather and lamellar armor, fur-edged modest helmet, charcoal collar. 645 Goguryeo / Tang period appropriate. Fictional visual design, not authenticated likeness. Consistent realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Plain background. No text, no grid, no modern objects, no fantasy.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_01_wall",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Goguryeo commander Yang Manchun surveys distant unfinished earth mound from stone Ansi fortress wall. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_02_sortie",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Mobile cavalry departs Ansi stone fortress gate, archers cover from wall, restrained action. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_03_messenger",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Exhausted dusty mounted messenger arrives at fortress gate and is helped down by reserve commander. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_04_canyon",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Infantry scouts crouch above a narrow forest ravine studying blocked mountain path. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_05_breach",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Goguryeo spearmen shield wounded relief vanguard escaping first defensive line in rocky ravine. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_06_linkup",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Two battered Goguryeo units recognize each other at sunset in forest pass and share water. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_07_raid",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Young reserve commander leads careful night raid near wooden siege camp with muted torches. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_08_wagons",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Long relief grain wagon convoy enters Ansi fortress gate at night, stone wall and weary residents. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_09_hospital",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Fictional young Korean woman Yeoni age22 oval face tied black hair gray linen tunic carefully labels wounded soldiers in fortress aid station. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_10_collapse",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Pre-dawn collapse of massive earthen siege mound beside stone fortress, distant figures safely indistinct, dust and falling timber. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_11_counterattack",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Goguryeo shield infantry defends damaged wall at dawn after mound collapse, restrained distant action. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_12_capture",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Plain Goguryeo banner erected atop captured earth mound with engineers testing timber supports. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_13_outercamp",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Goguryeo troops carefully clear abandoned siege wagons and wooden frames in outer camp. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_14_truce",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Truce emissary holding plain white cloth meets fortress officers at a wooden table, neutral controlled mood. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_15_prisoners",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Fictional young woman Yeoni with oval face tied black hair gray linen gives water to wounded Tang prisoner in secure aid station. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_16_emperor",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Tang emperor Li Shimin age47 long strong face trimmed goatee black Tang cap burgundy robe considers map by lamplight. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_17_retreat",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Tang army banners recede west along dusty road viewed from intact Ansi fortress wall, solemn atmosphere. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_18_registers",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Young reserve officer writes two separate name registers under lantern, tired hands and water bowl. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_19_departure",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Young officer Yang Deok age29 youthful oval face sparse beard green collar departs fortress on horseback toward mountain outpost. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "scene_20_winter",
+    "directory": "04_Illustrations",
+    "prompt": "Use case: historical-scene. One full-page historical novel illustration, 645 Ansi alternate-history campaign: Ansi stone fortress prepared for winter, gentle snow, warm watch lantern, fictional boy Sol age11 and sister Yeoni age22 carry wooden water buckets near well. Realistic ink and mineral pigment on warm ivory paper, muted indigo iron brown palette. Goguryeo stone fortress, practical lamellar armor, wooden wagons, period plausible clothing. If Yang Manchun shown:48 square face straight brows short black beard gray chin scar above RIGHT brow indigo collar plain iron helmet. No text no grid no modern objects no fantasy, no graphic wounds.",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_yang_manchun",
+    "directory": "03_Characters",
+    "mode": "builtin",
+    "prompt": "Single Goguryeo commander Yang Manchun,48 square face straight brows short black beard with gray chin, scar above RIGHT brow, indigo collar, plain iron helmet; ink and mineral pigment on warm ivory; fictional likeness; no text",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_yeoni",
+    "directory": "03_Characters",
+    "mode": "builtin",
+    "prompt": "Fictional Goguryeo woman Yeoni22 oval face tied black hair gray linen tunic; ink and mineral pigment on warm ivory; no text",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_sol",
+    "directory": "03_Characters",
+    "mode": "builtin",
+    "prompt": "Fictional boy Sol11 round face short tied hair brown tunic repaired wooden bucket; ink and mineral pigment on warm ivory; no text",
+    "status": "saved"
+  },
+  {
+    "id": "portrait_jinle",
+    "directory": "03_Characters",
+    "mode": "builtin",
+    "prompt": "Fictional Tang prisoner Jinle27 thin long face chin stubble faded gray tunic clean forearm bandage; ink and mineral pigment on warm ivory; no text",
+    "status": "saved"
+  }
+]

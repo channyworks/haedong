@@ -1,0 +1,629 @@
+{
+  "files": [
+    {
+      "path": "01_Novel/haedong_novel.docx",
+      "bytes": 74543324,
+      "sha256": "3fd2ca1906a98e9da5ffbad036fe143b64ad8b0bea7e78b5e6d5d0e1ee6c4311"
+    },
+    {
+      "path": "01_Novel/haedong_novel.md",
+      "bytes": 98042,
+      "sha256": "a72bcfb0a293c2541ecbb9aef9f300a1137450d640c64283bf0411422620baeb"
+    },
+    {
+      "path": "01_Novel/haedong_novel.pdf",
+      "bytes": 10470875,
+      "sha256": "6943391b921b52eb98ff1d28a7727316c26fbdcf19596618cc937be9cfb71df6"
+    },
+    {
+      "path": "02_Scenario/SCENARIO_BOOK.md",
+      "bytes": 19885,
+      "sha256": "7c54041b8eda8872d18e29cb46711dd63b499da44f70e2052c01124c98f9f098"
+    },
+    {
+      "path": "02_Scenario/scenario_book.docx",
+      "bytes": 565481,
+      "sha256": "d4197d1b42bff14cb5313c2a75645602fae6414b04f03ccd7e1ae1bdf83ac9c9"
+    },
+    {
+      "path": "02_Scenario/scenario_book.pdf",
+      "bytes": 815501,
+      "sha256": "9fdbed604e74063d280be5c858e420f1235dbb6805cbc802ec656bf2702b1f43"
+    },
+    {
+      "path": "03_Characters/CHARACTER_BIBLE.md",
+      "bytes": 9188,
+      "sha256": "7de48cf0e7f48728c05d09351f7328a308650e342787cfdd18f4c8ed0a6a4232"
+    },
+    {
+      "path": "03_Characters/character_bible.docx",
+      "bytes": 63419851,
+      "sha256": "7e06ac1c6b3affd8ddacbb34b257e7035dfebcbf6f450604ee130a46d7b2873d"
+    },
+    {
+      "path": "03_Characters/character_bible.pdf",
+      "bytes": 9470983,
+      "sha256": "9d4b98bd844eb5adad89a9675a0855fece8b86cf7edf3004e3a33e9a37f9c5e6"
+    },
+    {
+      "path": "03_Characters/portrait_ashina_sheer.png",
+      "bytes": 3201752,
+      "sha256": "77b1318bba74ac49f42a7cebf625414ce09a9c4670f4b6b6aa4fa623d3f5fcba"
+    },
+    {
+      "path": "03_Characters/portrait_bojang.png",
+      "bytes": 3127092,
+      "sha256": "7e5bc18a039b46e679d9f45e3202a6a01028b3ac2494eae5c1662473a6ed8857"
+    },
+    {
+      "path": "03_Characters/portrait_eul_dusan.png",
+      "bytes": 3199849,
+      "sha256": "cb252ad5deedf4eeaedaec3dafa1824124b0f6424a519cf62ca17b13d923be51"
+    },
+    {
+      "path": "03_Characters/portrait_go_jeongmu.png",
+      "bytes": 3126867,
+      "sha256": "9eee485d4c30111a732c66753335634cf8dd02c81c18ce88beaed5286da6c1d8"
+    },
+    {
+      "path": "03_Characters/portrait_go_jinmu.png",
+      "bytes": 3150830,
+      "sha256": "8e3abb863971c55b5fec0588377913412fda4e2493e64e899d19b135753cc3a3"
+    },
+    {
+      "path": "03_Characters/portrait_go_jinseong.png",
+      "bytes": 3093784,
+      "sha256": "d42adf155dd0e46c1d673fe580eed5f549e1d54db89f8b9f5db404dff44a7ec8"
+    },
+    {
+      "path": "03_Characters/portrait_go_mujin.png",
+      "bytes": 3377070,
+      "sha256": "d10513114ee1089b2836e60c7b012756cc53b90d6aa21ae7e5102a7fd80cf742"
+    },
+    {
+      "path": "03_Characters/portrait_go_yeonsu.png",
+      "bytes": 3351405,
+      "sha256": "9c33e7e0adca73f5fc9cfac4a61d40b2642d05cd371a56386f40099517c040e1"
+    },
+    {
+      "path": "03_Characters/portrait_hae_myeongjin.png",
+      "bytes": 3273205,
+      "sha256": "a9b6adeed61c7a71269920c1ee97300187cee0ea97cf4aad5abd8642f05ab379"
+    },
+    {
+      "path": "03_Characters/portrait_jinle.png",
+      "bytes": 3293317,
+      "sha256": "f3b5c01f33e6df1e6204b3fab08c48313d9ef8f337f2e4059d47de4d1b0adfe2"
+    },
+    {
+      "path": "03_Characters/portrait_li_daozong.png",
+      "bytes": 3270625,
+      "sha256": "9bbb0bfaad8c0b03408f86c9a403283465b0d3a32a568d685bd2e1c2d6783249"
+    },
+    {
+      "path": "03_Characters/portrait_li_shiji.png",
+      "bytes": 3273946,
+      "sha256": "458aaecbc30163dbd9335811fbe49275776df284e0f1bae7635eecf395a412cc"
+    },
+    {
+      "path": "03_Characters/portrait_li_shimin.png",
+      "bytes": 3100378,
+      "sha256": "2f6baa3440d15bf173c80e121d616f0381d4de2e35555d628ada350dbb81412f"
+    },
+    {
+      "path": "03_Characters/portrait_mok_cheol.png",
+      "bytes": 3255618,
+      "sha256": "14c0594193b5b0ceacebd780e7b16a5e0d725ffe5bc29f15eb8d02da8a8c3909"
+    },
+    {
+      "path": "03_Characters/portrait_sol.png",
+      "bytes": 3530981,
+      "sha256": "d680e3b624c71ceea0bc63f26c4bfa1bd69c47a83f8597d2ad7e089e1d26b968"
+    },
+    {
+      "path": "03_Characters/portrait_yang_deok.png",
+      "bytes": 3180272,
+      "sha256": "f24118996ea30f5fb1c45ec9f6b43eddfe5bb841d66a380309b41b143f006241"
+    },
+    {
+      "path": "03_Characters/portrait_yang_manchun.png",
+      "bytes": 3509385,
+      "sha256": "ae0ced526b8c543acd439009b00220ab4d7ebc0e4df9ee252df063b3ecf5c9eb"
+    },
+    {
+      "path": "03_Characters/portrait_yeon_gaesomun.png",
+      "bytes": 3203443,
+      "sha256": "2dca8a170da8cf8e5d5962fe95503d5b225d39d338baf1e28522e4256fb24c6b"
+    },
+    {
+      "path": "03_Characters/portrait_yeon_namsaeng.png",
+      "bytes": 3145167,
+      "sha256": "b627ff3b966070e43f2f1dbab308d0176a2ef2c3e04fe4495463e8a7bb8b889d"
+    },
+    {
+      "path": "03_Characters/portrait_yeoni.png",
+      "bytes": 3241634,
+      "sha256": "7396979483751ad2b4eca60b13a1f05552cd4c0f5ac45481c52e50b6336a9a58"
+    },
+    {
+      "path": "04_Illustrations/generation_prompts.json",
+      "bytes": 25249,
+      "sha256": "658bcd71d6bda572a9a2ab7ac7f7feaca76310aad83bb20efd6b794b8cba0276"
+    },
+    {
+      "path": "04_Illustrations/scene_01_wall.png",
+      "bytes": 3715041,
+      "sha256": "d76d59a338a1507fab68f8767f4a43733adc3819a3e4b663217e65264a37d8d7"
+    },
+    {
+      "path": "04_Illustrations/scene_02_sortie.png",
+      "bytes": 3559414,
+      "sha256": "47d5dc5cc5dc75d07d12b9c2da9469af99cbd1f17239157c9729e4d71128328d"
+    },
+    {
+      "path": "04_Illustrations/scene_03_messenger.png",
+      "bytes": 3600821,
+      "sha256": "bafd3252a64da824b2021a7fa227bec637f6ae73ee5c7409f294ca0579e5fd49"
+    },
+    {
+      "path": "04_Illustrations/scene_04_canyon.png",
+      "bytes": 3955351,
+      "sha256": "1a51e5aaeeee332cf97746b482f822576af67d40382b9a71389c1ab9dfaec94f"
+    },
+    {
+      "path": "04_Illustrations/scene_05_breach.png",
+      "bytes": 3749984,
+      "sha256": "43d410945788b6536e62be30d199f9ccef46cbdf758998fa91f723ddff0f33f0"
+    },
+    {
+      "path": "04_Illustrations/scene_06_linkup.png",
+      "bytes": 3659124,
+      "sha256": "30bd38e8db83c9493a0394410fa18517f7761f49b17c721401757c1d5f4c4fb9"
+    },
+    {
+      "path": "04_Illustrations/scene_07_raid.png",
+      "bytes": 3321516,
+      "sha256": "d4f39ae98f0e151633e2ca9ebff4a8d4d80f665a5cf9392ec6e1bd2820a76fc5"
+    },
+    {
+      "path": "04_Illustrations/scene_08_wagons.png",
+      "bytes": 3441412,
+      "sha256": "dee9150e96f37cdfae9efa18590db112b8f8af42a5aa3bf71229d49942735cd2"
+    },
+    {
+      "path": "04_Illustrations/scene_09_hospital.png",
+      "bytes": 3900495,
+      "sha256": "430f5aa9d1ce60a6e101fd572e1d9873920093af29d831d54464791b0b249a5c"
+    },
+    {
+      "path": "04_Illustrations/scene_10_collapse.png",
+      "bytes": 3287863,
+      "sha256": "6083b88241fb195f089587f8f79546c05c3c8c99399b85bf74350b40ebd15fce"
+    },
+    {
+      "path": "04_Illustrations/scene_11_counterattack.png",
+      "bytes": 3580363,
+      "sha256": "332ef30383ced0c542dee73c42770fbb838845250f9bacc777df105055e4d415"
+    },
+    {
+      "path": "04_Illustrations/scene_12_capture.png",
+      "bytes": 3634982,
+      "sha256": "995e794507a207eab93cacb626bdc721729868c5466c64dc7a81721747e4ea3c"
+    },
+    {
+      "path": "04_Illustrations/scene_13_outercamp.png",
+      "bytes": 3712202,
+      "sha256": "627b67390151ac419714665ed6ce53c7644bae16a8acde535feef1b22278fedb"
+    },
+    {
+      "path": "04_Illustrations/scene_14_truce.png",
+      "bytes": 3761140,
+      "sha256": "244c6f123d79a7d9d92ad35c731f2b58516f1e61c9f47cacbc56a27ecfef15dc"
+    },
+    {
+      "path": "04_Illustrations/scene_15_prisoners.png",
+      "bytes": 3774061,
+      "sha256": "f1130c69d128529a58d7d043746f7d1a7b7a36fccae94d082fc91add64759d89"
+    },
+    {
+      "path": "04_Illustrations/scene_16_emperor.png",
+      "bytes": 3624892,
+      "sha256": "aee66cc4de159b2885e4e4c914db24b757cf13eea1792e12f99990d8491e15f4"
+    },
+    {
+      "path": "04_Illustrations/scene_17_retreat.png",
+      "bytes": 3596920,
+      "sha256": "d8c54cacce17534457b47824ecd4aef1d06217ed6dc5569eed88d624929f9b36"
+    },
+    {
+      "path": "04_Illustrations/scene_18_registers.png",
+      "bytes": 3497069,
+      "sha256": "2ae25497318d23bfa998cc5440e227bdf979b3db447980fde000c0bc718440e1"
+    },
+    {
+      "path": "04_Illustrations/scene_19_departure.png",
+      "bytes": 3712425,
+      "sha256": "abf795a5f302ae07890629b07d8d4a651ace25edeb3161e6c27e863f03f38d5c"
+    },
+    {
+      "path": "04_Illustrations/scene_20_winter.png",
+      "bytes": 3811843,
+      "sha256": "aadbc5477e43ebfd52d8fc1fa014cbea65aef4948263528f3e61735a1f470407"
+    },
+    {
+      "path": "05_Maps/01_strategy.png",
+      "bytes": 56203,
+      "sha256": "c54adac84fcfba34706417c569c6a677c30c0ac40f1870ff3b4bb46666706666"
+    },
+    {
+      "path": "05_Maps/01_strategy.svg",
+      "bytes": 2315,
+      "sha256": "3ff03b6d135d48851ab27b07dbed538ffe421bc083537cba5e724fa2d5dd4dd6"
+    },
+    {
+      "path": "05_Maps/02_siege.png",
+      "bytes": 44808,
+      "sha256": "7d6fc35a7afbb1db2ef95169ea89db5add908fe7172c7cd4dda85d2276d9ac49"
+    },
+    {
+      "path": "05_Maps/02_siege.svg",
+      "bytes": 1842,
+      "sha256": "7784924ba7fe572435404739ab05d9b71087df35acbf370de4a199be9cf47513"
+    },
+    {
+      "path": "05_Maps/03_sortie.png",
+      "bytes": 44527,
+      "sha256": "0deb0ff38814d32ab234071531896f1e3aacf0a726de45d68487c02336df6980"
+    },
+    {
+      "path": "05_Maps/03_sortie.svg",
+      "bytes": 1938,
+      "sha256": "ea5031a27b1ce98e20e9c8e9e81821977ad52a81a61e563992d1260b393b0b7f"
+    },
+    {
+      "path": "05_Maps/04_contact.png",
+      "bytes": 46038,
+      "sha256": "2a6233c03a352263d9b53b53a409d50ab210fd5bd0f7d9a9805d39d353cc7e52"
+    },
+    {
+      "path": "05_Maps/04_contact.svg",
+      "bytes": 1945,
+      "sha256": "a87d06c85855c721fb3b2c2a2fdd2bc6f4a2824f2c9b6839eef4289b4eb1cac5"
+    },
+    {
+      "path": "05_Maps/05_west.png",
+      "bytes": 45264,
+      "sha256": "127acbae73218a9378f66286ee62ff74edb6b3d84deaa7ab3105dbf48fff58ab"
+    },
+    {
+      "path": "05_Maps/05_west.svg",
+      "bytes": 1938,
+      "sha256": "9ea84d0a46de39a7c6e110c59111bd54894ea1e1a4b7cdf0c3f9aadd71d29c0c"
+    },
+    {
+      "path": "05_Maps/06_first.png",
+      "bytes": 46600,
+      "sha256": "cbda8a40959761246f455118c2f64d410a43c8f0fd99bab434f7d4bb85d96e64"
+    },
+    {
+      "path": "05_Maps/06_first.svg",
+      "bytes": 1946,
+      "sha256": "3f6816b2ce8ec8e5b06b4f4616beef5e7b5f9c7adc8045f06741cf762fe7eb88"
+    },
+    {
+      "path": "05_Maps/07_second.png",
+      "bytes": 46453,
+      "sha256": "94fd23b0e7073dea546aafe77d9b7ed92d282c1568e70453edd1faf28b4064fa"
+    },
+    {
+      "path": "05_Maps/07_second.svg",
+      "bytes": 1952,
+      "sha256": "1970e8e06d8479bba6fe7c1f493bee13900364c62dd34536daa2007b4db97b36"
+    },
+    {
+      "path": "05_Maps/08_night.png",
+      "bytes": 47876,
+      "sha256": "ce4c5e326fe1215c1cb202a3d589e3cf498cbbe68c86e25df2e36a339152f2e9"
+    },
+    {
+      "path": "05_Maps/08_night.svg",
+      "bytes": 2056,
+      "sha256": "7c59de125bcb60a39087066c9938cd836c4ebc16e2b4c02427d63575ca5e9ff2"
+    },
+    {
+      "path": "05_Maps/09_mound.png",
+      "bytes": 45721,
+      "sha256": "006459564c11b7699f54b56ddfeb39304105385fcf519214ef8f50cbddbddc5d"
+    },
+    {
+      "path": "05_Maps/09_mound.svg",
+      "bytes": 1845,
+      "sha256": "0c93608b730f7c1a41ef1518a31b8b457fc50eddea42d82a5c0a761edfee0f00"
+    },
+    {
+      "path": "05_Maps/10_outer.png",
+      "bytes": 47639,
+      "sha256": "0c60f58ffc90460cd46a4a64bf76df16285d6ae94b17bf1abfadf0e3e44ae557"
+    },
+    {
+      "path": "05_Maps/10_outer.svg",
+      "bytes": 1951,
+      "sha256": "d08bbef22554420d83b5c22ba6842e4f68f5154f1457edcc2e7e9490752e74a2"
+    },
+    {
+      "path": "05_Maps/11_withdrawal.png",
+      "bytes": 46095,
+      "sha256": "4084adfaf7a1b2a5e162f98ef2dddb3dd57106d3cf379df7fbdee137b5b556f3"
+    },
+    {
+      "path": "05_Maps/11_withdrawal.svg",
+      "bytes": 1943,
+      "sha256": "c32cc811651c7d56e4b8ba7962db417ec6fc1af93f614d176a748c2b66ccd5ce"
+    },
+    {
+      "path": "05_Maps/12_winter.png",
+      "bytes": 53995,
+      "sha256": "f78da65cefd65a89263bca1da8609d8cd7815834dfab7a436b0d8ad96acfcc0d"
+    },
+    {
+      "path": "05_Maps/12_winter.svg",
+      "bytes": 1991,
+      "sha256": "62d57d0358651073b043c5035f42378ac346faca7ba688a6ffb5e71f92b5ab57"
+    },
+    {
+      "path": "05_Maps/README.md",
+      "bytes": 569,
+      "sha256": "819d76ac754f77f4549df358b501819df937dba77c5a71319d54edb69211ca7e"
+    },
+    {
+      "path": "06_Codex/AGENTS.md",
+      "bytes": 1313,
+      "sha256": "556ac6d1ca61b7c41496c6cb8f7d3991938800e7d68fb6612d1f4f943d3491cc"
+    },
+    {
+      "path": "06_Codex/API_CONTRACT.md",
+      "bytes": 2426,
+      "sha256": "fdb796a7aaf2d3cd634de1aa7223c270446b2e27797d0c77e2babc66259563ac"
+    },
+    {
+      "path": "06_Codex/GAME_DESIGN.md",
+      "bytes": 10569,
+      "sha256": "d2f659e797182adb83838582acfdfe8befb03d0e77a9baf15602a48c32dd093f"
+    },
+    {
+      "path": "06_Codex/WORLD.md",
+      "bytes": 1424,
+      "sha256": "b4f0cfb4eaa58832b2960e5dc8f5bced58fe46d91299f8fad88776943d816798"
+    },
+    {
+      "path": "06_Codex/build_documents.py",
+      "bytes": 18398,
+      "sha256": "671c393a2bd03aa3ff8df3efe3c58c1cd037d5802b2d805b08c33047448c4554"
+    },
+    {
+      "path": "06_Codex/game_design.docx",
+      "bytes": 42747,
+      "sha256": "e42495ece60fb251ebe4743c07a2b1a916981d43933a6c0d88a3c5b865f7a4cd"
+    },
+    {
+      "path": "06_Codex/game_design.pdf",
+      "bytes": 203558,
+      "sha256": "ec98200dd91d50b38b77bfd05e8029fc8a1732fa2191b5685906db0a3977b840"
+    },
+    {
+      "path": "06_Codex/reference_kernel.py",
+      "bytes": 4825,
+      "sha256": "3f0033cd867913404e96b6c6de04cf054c0ec0d6dbb49cc2e7e0d37c8add9736"
+    },
+    {
+      "path": "06_Codex/requirements.txt",
+      "bytes": 42,
+      "sha256": "cf8622146c555e46d15d80403aa08cfdcae6c71e11f97e9bead2a09e8f80cfa5"
+    },
+    {
+      "path": "06_Codex/schema.sql",
+      "bytes": 1730,
+      "sha256": "d623d423393721c5311d5836062a02c681fd0564ece1f1b15a876437a631d5c2"
+    },
+    {
+      "path": "07_GameData/ANSI_B_POST_003.json",
+      "bytes": 610,
+      "sha256": "8ed5c530d2c344ad15ad5de80357229c161ae17914f101b26bd538285e0ba432"
+    },
+    {
+      "path": "07_GameData/accounting_audit.json",
+      "bytes": 3749,
+      "sha256": "9528fa8a7fcf7c833fcd8329a0aef2ce8676c8865f7018744b779da54ed48131"
+    },
+    {
+      "path": "07_GameData/ansi_branch_b.json",
+      "bytes": 4297,
+      "sha256": "5d5bcc72c8b9164194a103aabf13fc4d59c0d9ae1106e5b3b69ed533623e957b"
+    },
+    {
+      "path": "07_GameData/character.schema.json",
+      "bytes": 625,
+      "sha256": "0cd9e78838f71112d6d49fa34387af0c36d2194c7e71bd1a63649d2e317a249f"
+    },
+    {
+      "path": "07_GameData/characters.json",
+      "bytes": 9075,
+      "sha256": "e88d43e1950f5a1a0613028c4de1a03350c8dd3074d2423e9100551a67eddd2c"
+    },
+    {
+      "path": "07_GameData/checkpoint.schema.json",
+      "bytes": 748,
+      "sha256": "1849d6ce7fe6eb43ab0d0a9d2690c6865a4ed3a8236bf3754c3704661a82b469"
+    },
+    {
+      "path": "07_GameData/checkpoints.json",
+      "bytes": 6459,
+      "sha256": "b95c0b69eafe20ee8b1a3c743a47864b3c9f2989ac8e6c9081e4cfa9ef6a1e76"
+    },
+    {
+      "path": "07_GameData/events.json",
+      "bytes": 6251,
+      "sha256": "947d1b93b17fd57bbdc4f093a051c302084c36c9700c1ad963aea7eac5986221"
+    },
+    {
+      "path": "07_GameData/maps.json",
+      "bytes": 3403,
+      "sha256": "82f969f30d710234fa7687f9afa4d03e216f4587dcec99a98674bfea413b39d5"
+    },
+    {
+      "path": "07_GameData/scenario.json",
+      "bytes": 1662,
+      "sha256": "33d3e688fb346c2e628dca32cdaba8ba38e358da53604a64a86e6566e87ced92"
+    },
+    {
+      "path": "07_GameData/unknowns.json",
+      "bytes": 1632,
+      "sha256": "da2dd7ec5520f188a72759e620acc5614d5eb516a1aecd6038cd90c07142a3fd"
+    },
+    {
+      "path": "08_Tests/README.md",
+      "bytes": 834,
+      "sha256": "e6cefd1169f2796f88a2be834d9e213a05e39ca7ae56039de0173ba496ec5d4d"
+    },
+    {
+      "path": "08_Tests/test_documents.py",
+      "bytes": 2310,
+      "sha256": "67e78e419994ef5bfbc077db5f88e81c325be29399079a847f4e670ad2d7b44b"
+    },
+    {
+      "path": "08_Tests/test_validation.py",
+      "bytes": 6789,
+      "sha256": "3ec9f111f90271b600a53d85d4420565fbdb09fb271d72b00d8a0420092160dd"
+    },
+    {
+      "path": "08_Tests/verify_manifest.py",
+      "bytes": 374,
+      "sha256": "f48a5ac666e928ddd45443bae990924b0ad0605688336c38edb3a631647ae70b"
+    },
+    {
+      "path": "09_References/REFERENCES.md",
+      "bytes": 3938,
+      "sha256": "4f54916c2809b533e258be3f533dfa78c238f342409c980005686bf517427aff"
+    },
+    {
+      "path": "09_References/haedong_v01.zip",
+      "bytes": 502196,
+      "sha256": "d7c2cb2a8963a4446133c113c6c031a5d42954a4779a06d91382cd2616eb40f5"
+    },
+    {
+      "path": "09_References/production_brief.jpg",
+      "bytes": 100000,
+      "sha256": "b3745aa152512bc018cf2bd4e9666ced3be8674b74caf57bd9eccd68c52a8392"
+    },
+    {
+      "path": "09_References/source_hashes.json",
+      "bytes": 1497,
+      "sha256": "53e1bbc85756e0bf42f5fadaa561c8a18858f5042249d96c79d8ebab42d959da"
+    },
+    {
+      "path": "09_References/v01_original/AGENTS.md",
+      "bytes": 373,
+      "sha256": "3243b2185352053a0b186d56de88738b47233d373aac68432b251f37fd8dffe2"
+    },
+    {
+      "path": "09_References/v01_original/README.md",
+      "bytes": 283,
+      "sha256": "39b563bc8025aa7c3cfa51d0a3a4296577b2c8d92e83a7b2407a5b205ba3abda"
+    },
+    {
+      "path": "09_References/v01_original/assets/valley.png",
+      "bytes": 45201,
+      "sha256": "85435f3356581e4acf17e33ba10f8e3573931a9c92c38049ec6970fb59666c65"
+    },
+    {
+      "path": "09_References/v01_original/assets/valley.svg",
+      "bytes": 1592,
+      "sha256": "ceba2dc8405bb734501ae238e76ed4357f7895a2e8d53b059d111e43f3e18fe8"
+    },
+    {
+      "path": "09_References/v01_original/docs/CHARACTERS.md",
+      "bytes": 1568,
+      "sha256": "dbed3fa57c8a19d403be3c9d78e6c31d799a6d4bd714be7283459d2a75d5bce4"
+    },
+    {
+      "path": "09_References/v01_original/docs/GAME_DESIGN.md",
+      "bytes": 2231,
+      "sha256": "4ac46e589fedd5d7170cc8eaa274c6aedf7e0e91ebc40c64e8877499be5f134f"
+    },
+    {
+      "path": "09_References/v01_original/docs/TIMELINE.md",
+      "bytes": 1738,
+      "sha256": "a7dfe35d118e0dcb331ad3a345285350ef078381b3f2b8b2e1891202e79eb7a4"
+    },
+    {
+      "path": "09_References/v01_original/docs/WORLD.md",
+      "bytes": 1503,
+      "sha256": "b93d3248470bc79900b84e4712ee29055d5c233ef089d2ec54e6dd7c96d3b1ca"
+    },
+    {
+      "path": "09_References/v01_original/docs/scenario_book.docx",
+      "bytes": 83536,
+      "sha256": "b3c3e145cb87ec035d54b727d4de3a7a4cafdcc43cc08af030da9f674cafb3da"
+    },
+    {
+      "path": "09_References/v01_original/docs/scenario_book.pdf",
+      "bytes": 183460,
+      "sha256": "8018cebb4169e38a4c0f7b6efa031a2c7cfed1ab8ced637b44fdb7c81c1e12f5"
+    },
+    {
+      "path": "09_References/v01_original/novel/haedong_novel.docx",
+      "bytes": 83013,
+      "sha256": "54cb849e8ebb90a2af43132b14d53e2693012d4b81794f37a609b2dcff208698"
+    },
+    {
+      "path": "09_References/v01_original/novel/haedong_novel.pdf",
+      "bytes": 174493,
+      "sha256": "806903d885b090ac76f9cffa5ea382b8edbbab0553cd6261f9422af4385409a3"
+    },
+    {
+      "path": "09_References/v01_original/novel/volume_01.md",
+      "bytes": 2731,
+      "sha256": "2e2c64e6728d36db689426acfbb9008d8419b7334a25b7fa0189bc5dd65f985f"
+    },
+    {
+      "path": "09_References/v01_original/scenarios/ANSI_B_POST_003.json",
+      "bytes": 610,
+      "sha256": "8ed5c530d2c344ad15ad5de80357229c161ae17914f101b26bd538285e0ba432"
+    },
+    {
+      "path": "09_References/v01_original/scenarios/ansi_branch_b.json",
+      "bytes": 4297,
+      "sha256": "5d5bcc72c8b9164194a103aabf13fc4d59c0d9ae1106e5b3b69ed533623e957b"
+    },
+    {
+      "path": "09_References/v01_original/tests/test_accounting.py",
+      "bytes": 555,
+      "sha256": "26af23b9b6b917b3c5a730c65e5d72f27518b87b873747ae8ec5672ed2c082b3"
+    },
+    {
+      "path": "10_QA/QA_REPORT.md",
+      "bytes": 4030,
+      "sha256": "a812f6e3ca1e84f0d49249dd75590fef802e5caaf193d6b4d6bf6c2514b807ce"
+    },
+    {
+      "path": "10_QA/deliverable_summary.json",
+      "bytes": 334,
+      "sha256": "d1a39bbc2322463745549322a346f06361440714d9de123eeeea38d12efbcac9"
+    },
+    {
+      "path": "10_QA/layout_report.json",
+      "bytes": 23655,
+      "sha256": "83dc6dbef2d5eb970d5805fffef9d468189748185af42fa3ac30d2c8fcf23eeb"
+    },
+    {
+      "path": "10_QA/tests.log",
+      "bytes": 3099,
+      "sha256": "bb88d83d4b14dfd4f72227907239adc707b8f41ffd09ababff71a13e2c6f278d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2609,
+      "sha256": "8beb53e85bca1a8a7fa387b28268d2fa4479fe15e083cd0f56d69f1ff36128d5"
+    }
+  ]
+}

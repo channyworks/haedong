@@ -1,0 +1,18 @@
+{
+  "AGENTS.md": "3243b2185352053a0b186d56de88738b47233d373aac68432b251f37fd8dffe2",
+  "README.md": "39b563bc8025aa7c3cfa51d0a3a4296577b2c8d92e83a7b2407a5b205ba3abda",
+  "tests/test_accounting.py": "26af23b9b6b917b3c5a730c65e5d72f27518b87b873747ae8ec5672ed2c082b3",
+  "assets/valley.svg": "ceba2dc8405bb734501ae238e76ed4357f7895a2e8d53b059d111e43f3e18fe8",
+  "assets/valley.png": "85435f3356581e4acf17e33ba10f8e3573931a9c92c38049ec6970fb59666c65",
+  "novel/haedong_novel.pdf": "806903d885b090ac76f9cffa5ea382b8edbbab0553cd6261f9422af4385409a3",
+  "novel/haedong_novel.docx": "54cb849e8ebb90a2af43132b14d53e2693012d4b81794f37a609b2dcff208698",
+  "novel/volume_01.md": "2e2c64e6728d36db689426acfbb9008d8419b7334a25b7fa0189bc5dd65f985f",
+  "docs/scenario_book.pdf": "8018cebb4169e38a4c0f7b6efa031a2c7cfed1ab8ced637b44fdb7c81c1e12f5",
+  "docs/TIMELINE.md": "a7dfe35d118e0dcb331ad3a345285350ef078381b3f2b8b2e1891202e79eb7a4",
+  "docs/WORLD.md": "b93d3248470bc79900b84e4712ee29055d5c233ef089d2ec54e6dd7c96d3b1ca",
+  "docs/GAME_DESIGN.md": "4ac46e589fedd5d7170cc8eaa274c6aedf7e0e91ebc40c64e8877499be5f134f",
+  "docs/CHARACTERS.md": "dbed3fa57c8a19d403be3c9d78e6c31d799a6d4bd714be7283459d2a75d5bce4",
+  "docs/scenario_book.docx": "b3c3e145cb87ec035d54b727d4de3a7a4cafdcc43cc08af030da9f674cafb3da",
+  "scenarios/ansi_branch_b.json": "5d5bcc72c8b9164194a103aabf13fc4d59c0d9ae1106e5b3b69ed533623e957b",
+  "scenarios/ANSI_B_POST_003.json": "8ed5c530d2c344ad15ad5de80357229c161ae17914f101b26bd538285e0ba432"
+}
