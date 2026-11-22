@@ -19,7 +19,7 @@ python -X utf8 -B -m unittest discover -s docs/HAEDONG_v1.0/08_Tests -v
 1. [보안 점검](SECURITY_POLICY.md)을 완료한다. 공개 담당자가 준비되면 저장소 **Settings → General → Danger Zone → Change repository visibility → Make public**에서 직접 진행한다.
 2. **Settings → Pages → Build and deployment → Source → GitHub Actions**를 선택한다.
 3. **Actions → Publish scenario preview → Run workflow**에서 `main`을 선택한다. 이후 `main`의 PoC·검사·워크플로 변경은 자동 배포된다.
-4. 패키지 및 배포 작업이 성공하고 `github-pages` 환경에 URL이 표시되는지 확인한다. [예정 주소](https://channyworks.github.io/haedong/)에서 페이지를 열고 CSS·JS 응답과 지도, 검색, 거점 상세, 열전, 브리핑을 PC와 모바일에서 확인한다.
+4. 패키지 및 배포 작업이 성공하고 `github-pages` 환경에 URL이 표시되는지 확인한다. [공개 사이트](https://channyworks.github.io/haedong/)에서 페이지를 열고 CSS·JS 응답과 지도, 검색, 거점 상세, 열전, 브리핑을 PC와 모바일에서 확인한다.
 
 워크플로는 `scenario-preview/`에서 검증된 HTML·CSS·JS 네 파일만 아티팩트 루트에 복사한다. 루트 테스트 페이지, 문서, 계획, 이미지와 원본 자료는 Pages에 포함되지 않는다. GitHub Pages에 게시하면 로컬 PC가 꺼져도 접속할 수 있다.
 

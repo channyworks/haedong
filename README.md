@@ -11,7 +11,7 @@
 
 ## 실행과 배포
 
-저장소 루트에서 `python -m http.server 8000`을 실행하고 [로컬 기획안](http://localhost:8000/scenario-preview/)을 연다. Python 없이 `scenario-preview/index.html`을 브라우저에서 직접 열 수도 있다. [GitHub Pages 예정 주소](https://channyworks.github.io/haedong/)의 활성화와 검증 절차는 [배포 가이드](docs/DEPLOYMENT_GUIDE.md)에 있다.
+저장소 루트에서 `python -m http.server 8000`을 실행하고 [로컬 기획안](http://localhost:8000/scenario-preview/)을 연다. Python 없이 `scenario-preview/index.html`을 브라우저에서 직접 열 수도 있다. 외부에서는 [GitHub Pages 기획안](https://channyworks.github.io/haedong/)을 열 수 있다. 운영과 검증 절차는 [배포 가이드](docs/DEPLOYMENT_GUIDE.md)에 있다.
 
 ## 프로젝트 문서
 
